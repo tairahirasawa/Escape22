@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fdcafa6d464b6244acf7042a7cd7dc1, type: 3}
+  m_Name: WindowColorData
+  m_EditorClassIdentifier: 
+  dayWindowColor: {r: 0.4812656, g: 0.6896158, b: 0.990566, a: 1}
+  nightWindowColor: {r: 1, g: 0.91338575, b: 0, a: 1}
+  dayDoorOpenColor: {r: 0.29411766, g: 0.28235295, b: 0.20392159, a: 1}
+  nightDoorOpenColor: {r: 1, g: 0.96295786, b: 0.5801887, a: 1}

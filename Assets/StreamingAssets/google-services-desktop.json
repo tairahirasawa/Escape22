@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "1045022768338",
+    "project_id": "escapegame-memopad",
+    "storage_bucket": "escapegame-memopad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045022768338:ios:42c482e0b274f1d3ba010b",
+        "android_client_info": {
+          "package_name": "com.TennpaGames.MemoPad"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyApWx5LV6TGHoDUMbm94Q2g0i7-HCyJ1bA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

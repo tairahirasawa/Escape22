@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a8a432f52be3b40b34fa695fdedde2, type: 3}
+  m_Name: FindItemDatas_cafe
+  m_EditorClassIdentifier: Assembly-CSharp::FindItemDatas
+  FindItemKeysName: FindItemScean_cafe
+  findItemKeylist:
+  - findItemType: cocoaPowder
+    findItemSprite: {fileID: 21300000, guid: c1bd07af8d8012d46a1d6033a59d388a, type: 3}
+    findItemKeylist:
+    - findItem_cocoaPowder_george
+    - findItem_cocoaPowder_master
+    - findItem_cocoaPowder_coffee
+    - findItem_cocoaPowder_window
+    - findItem_cocoaPowder_door
+    - findItem_cocoaPowder_kanban
+    - findItem_cocoaPowder_cat
+    - findItem_cocoaPowder_denki
+    - findItem_cocoaPowder_saku
+    - findItem_cocoaPowder_load
+  - findItemType: milk
+    findItemSprite: {fileID: 21300000, guid: 7f6473139b790de4bad92c7529ab0482, type: 3}
+    findItemKeylist:
+    - findItem_milk_chair
+    - findItem_milk_house
+    - findItem_milk_teaCup
+    - findItem_milk_eakon
+    - findItem_milk_blackBoard
+    - findItem_milk_logo
+  - findItemType: neckTie
+    findItemSprite: {fileID: 21300000, guid: c93648313ea16b14bafd8afc85efbbba, type: 3}
+    findItemKeylist:
+    - findItem_neckTie_coffeeMachine
+    - findItem_neckTie_ueki
+    - findItem_neckTie_shilette
+    - findItem_neckTie_window

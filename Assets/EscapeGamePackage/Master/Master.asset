@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6d57d7d8702cb744b60c84b6f446e68, type: 3}
+  m_Name: Master
+  m_EditorClassIdentifier: 
+  version: 0.6.2
+  gameMode: 0
+  platForm: 0
+  googleAdSettings:
+    Banner:
+      Android:
+        unitID: ca-app-pub-9200527557125596/7161883061
+      ios:
+        unitID: ca-app-pub-9200527557125596/4232467393
+      unexpected:
+        unitID: 
+    InterStatial:
+      Android:
+        unitID: ca-app-pub-9200527557125596/8235291589
+      ios:
+        unitID: ca-app-pub-9200527557125596/1606304050
+      unexpected:
+        unitID: 
+    Reward:
+      Android:
+        unitID: ca-app-pub-9200527557125596/8171712404
+      ios:
+        unitID: ca-app-pub-9200527557125596/9293222387
+      unexpected:
+        unitID: 
+    AppOpenAd:
+      Android:
+        unitID: ca-app-pub-9200527557125596/6858630732
+      ios:
+        unitID: ca-app-pub-9200527557125596/6922209919
+      unexpected:
+        unitID: 
+    RewardSubEvent:
+      Android:
+        unitID: ca-app-pub-9200527557125596/3301409548
+      ios:
+        unitID: ca-app-pub-9200527557125596/9769216171
+      unexpected:
+        unitID: 
+    LoadingScene:
+      Android:
+        unitID: 
+      ios:
+        unitID: 
+      unexpected:
+        unitID: 

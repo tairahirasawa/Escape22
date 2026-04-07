@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bec871b16a6ffd4882ababe83126d95, type: 3}
+  m_Name: CharactorData
+  m_EditorClassIdentifier: 
+  Charactors:
+  - chractorType: 1
+    displayNameTerm: George
+    ImageSprite: {fileID: 21300000, guid: 1b4801768f1aa8141a95ce2cdf54743a, type: 3}
+  - chractorType: 2
+    displayNameTerm: Edward
+    ImageSprite: {fileID: 21300000, guid: 56b377a242ae8b546a5edf232a1c401e, type: 3}
+  - chractorType: 3
+    displayNameTerm: Edward
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 4
+    displayNameTerm: CafeMaster
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 5
+    displayNameTerm: ChildDemon
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 6
+    displayNameTerm: ShopOwner
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 7
+    displayNameTerm: Detective
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 8
+    displayNameTerm: Client
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 9
+    displayNameTerm: Boy
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 10
+    displayNameTerm: Performer
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 11
+    displayNameTerm: Grandmother
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 12
+    displayNameTerm: Snowman
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 13
+    displayNameTerm: King
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 14
+    displayNameTerm: Troll
+    ImageSprite: {fileID: 21300000, guid: 3bd91105116b40341a24f1df502a08a7, type: 3}
+  - chractorType: 15
+    displayNameTerm: Wizard
+    ImageSprite: {fileID: 21300000, guid: 454c7c88f22c70f46b80fcdf1464c5de, type: 3}
+  - chractorType: 16
+    displayNameTerm: DemonKing
+    ImageSprite: {fileID: 21300000, guid: b76a3f4e7f3cd5141a180307a5738e63, type: 3}
+  - chractorType: 17
+    displayNameTerm: StationStaff
+    ImageSprite: {fileID: 21300000, guid: b76a3f4e7f3cd5141a180307a5738e63, type: 3}
+  - chractorType: 18
+    displayNameTerm: Doctor
+    ImageSprite: {fileID: 21300000, guid: b76a3f4e7f3cd5141a180307a5738e63, type: 3}
+  - chractorType: 19
+    displayNameTerm: Police
+    ImageSprite: {fileID: 21300000, guid: b76a3f4e7f3cd5141a180307a5738e63, type: 3}

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a8a432f52be3b40b34fa695fdedde2, type: 3}
+  m_Name: FindItemDatas_snowHouse
+  m_EditorClassIdentifier: Assembly-CSharp::FindItemDatas
+  FindItemKeysName: FindItemScean_snowHouse
+  findItemKeylist:
+  - findItemType: tougarashi
+    findItemSprite: {fileID: 21300000, guid: ed33834a3ce1ea942aac956db8418abb, type: 3}
+    findItemKeylist:
+    - findItem_tougarashi_danro
+    - findItem_tougarashi_edward
+    - findItem_tougarashi_yukidaruma_mafula
+    - findItem_tougarashi_tree
+    - findItem_tougarashi_yukidaruma_head
+    - findItem_tougarashi_yukiUsagi
+    - findItem_tougarashi_door
+    - findItem_tougarashi_chiken_back
+    - findItem_tougarashi_freezer
+    - findItem_tougarashi_treehole
+  - findItemType: donguri
+    findItemSprite: {fileID: 21300000, guid: 62a82066036694948888d08f1f287de6, type: 3}
+    findItemKeylist:
+    - findItem_donguri_edwardPocket
+    - findItem_donguri_yukidaruma_nose
+    - findItem_donguri_dog_under
+    - findItem_donguri_carrot_back
+    - findItem_donguri_snow_yane
+    - findItem_donguri_cola
+  - findItemType: daiya
+    findItemSprite: {fileID: 21300000, guid: 0b320d3935a976143ac4853c579abac0, type: 3}
+    findItemKeylist:
+    - findItem_daiya_mountain
+    - findItem_daiya_window
+    - findItem_daiya_ietyMouse
+    - findItem_daiya_kandan

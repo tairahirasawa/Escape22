@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225c4772a672e9d4d8d14ad36b245dce, type: 3}
+  m_Name: stage_002_ItemDatas
+  m_EditorClassIdentifier: 
+  ItemDataList:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues:
+    - driver
+    - soap
+    - showerTotte
+    - tshits
+    - zubon
+    _keys:
+    - driver
+    - soap
+    - showerTotte
+    - tshits
+    - zubon
+    _values:
+    - ItemSprite: {fileID: 21300000, guid: b92c7b4a459df9548a4cef5558452fb8, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: get_driver
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: use_driver
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+    - ItemSprite: {fileID: 21300000, guid: 38afd601dbd7b0c4281dd4d2c3427b6e, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: get_soap
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: use_soap
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+    - ItemSprite: {fileID: 21300000, guid: f6134ccbc02d71944972ad021c35a0bd, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: get_showerTotte
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: use_showerTotte
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+    - ItemSprite: {fileID: 21300000, guid: a330950576b28234cbc43d3c7d46bc7c, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: get_tshits
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: get_tshits
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+    - ItemSprite: {fileID: 21300000, guid: f0f91d476387ca3498ed4aa174f1ac0a, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: get_zubon
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 3
+          saveKey: get_zubon
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+  CollectionItemDataList:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 0
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 0
+    _keyValues: []
+    _keys: []
+    _values: []

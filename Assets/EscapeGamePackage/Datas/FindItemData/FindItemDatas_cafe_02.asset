@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a8a432f52be3b40b34fa695fdedde2, type: 3}
+  m_Name: FindItemDatas_cafe_02
+  m_EditorClassIdentifier: Assembly-CSharp::FindItemDatas
+  FindItemKeysName: FindItemScean_cafe_02
+  findItemKeylist:
+  - findItemType: cocoaPowder
+    findItemSprite: {fileID: 21300000, guid: c1bd07af8d8012d46a1d6033a59d388a, type: 3}
+    findItemKeylist:
+    - findItem_cocoaPowder_bill
+    - findItem_cocoaPowder_edward
+    - findItem_cocoaPowder_coffee
+    - findItem_cocoaPowder_dounuts
+    - findItem_cocoaPowder_lump
+    - findItem_cocoaPowder_papercup
+    - findItem_cocoaPowder_dennkyu
+    - findItem_cocoaPowder_tana
+    - findItem_cocoaPowder_menu
+    - findItem_cocoaPowder_floor
+  - findItemType: milk
+    findItemSprite: {fileID: 21300000, guid: 7f6473139b790de4bad92c7529ab0482, type: 3}
+    findItemKeylist:
+    - findItem_milk_menu
+    - findItem_milk_esabako
+    - findItem_milk_dennkyu
+    - findItem_milk_george
+    - findItem_milk_papercup
+    - findItem_milk_door
+  - findItemType: neckTie
+    findItemSprite: {fileID: 21300000, guid: c93648313ea16b14bafd8afc85efbbba, type: 3}
+    findItemKeylist:
+    - findItem_neckTie_cat
+    - findItem_neckTie_mob
+    - findItem_neckTie_cloud
+    - findItem_neckTie_saku

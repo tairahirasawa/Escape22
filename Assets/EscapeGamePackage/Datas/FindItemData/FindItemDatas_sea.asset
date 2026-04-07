@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a8a432f52be3b40b34fa695fdedde2, type: 3}
+  m_Name: FindItemDatas_sea
+  m_EditorClassIdentifier: Assembly-CSharp::FindItemDatas
+  FindItemKeysName: FindItemScean_sea_01
+  findItemKeylist:
+  - findItemType: starsand
+    findItemSprite: {fileID: 21300000, guid: 2a24077d3c2543845b5c459e3ae2ab24, type: 3}
+    findItemKeylist:
+    - findItem_starsand_sunaji
+    - findItem_starsand_crab
+    - findItem_starsand_hashira
+    - findItem_starsand_sune
+    - findItem_starsand_window
+    - findItem_starsand_sea
+    - findItem_starsand_mendako
+    - findItem_starsand_villawall
+    - findItem_starsand_denki
+    - findItem_starsand_shipwall
+  - findItemType: sinjyu
+    findItemSprite: {fileID: 21300000, guid: aadfe576b39d08a4a87479e3e3176a8b, type: 3}
+    findItemKeylist:
+    - findItem_sinjyu_sea
+    - findItem_sinjyu_wine
+    - findItem_sinjyu_yashinomi
+    - findItem_sinjyu_yane
+    - findItem_sinjyu_whale
+    - findItem_sinjyu_cloud
+  - findItemType: shell
+    findItemSprite: {fileID: 21300000, guid: 11ef4ff8107002a4fb64802255725c1f, type: 3}
+    findItemKeylist:
+    - findItem_shell_ukiwa
+    - findItem_shell_chizu
+    - findItem_shell_ito
+    - findItem_shell_kaipan

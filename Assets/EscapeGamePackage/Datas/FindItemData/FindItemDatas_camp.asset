@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a8a432f52be3b40b34fa695fdedde2, type: 3}
+  m_Name: FindItemDatas_camp
+  m_EditorClassIdentifier: Assembly-CSharp::FindItemDatas
+  FindItemKeysName: FindItemScean_camp
+  findItemKeylist:
+  - findItemType: aonori
+    findItemSprite: {fileID: 21300000, guid: f24de3970429486408ddce785c3cbf74, type: 3}
+    findItemKeylist:
+    - findItem_aonori_hige
+    - findItem_aonori_teppen
+    - findItem_aonori_dog
+    - findItem_aonori_vangaroe
+    - findItem_aonori_mountain
+    - findItem_aonori_kui
+    - findItem_aonori_ryukku
+    - findItem_aonori_ladybug
+    - findItem_aonori_cartire
+    - findItem_aonori_tent
+  - findItemType: kinka
+    findItemSprite: {fileID: 21300000, guid: 4f70b97d8d12de649ab0ec89b4f07945, type: 3}
+    findItemKeylist:
+    - findItem_kinka_river
+    - findItem_kinka_nebukuro
+    - findItem_kinka_carunder
+    - findItem_kinka_ryukku
+    - findItem_kinka_makura
+    - findItem_kinka_maki
+  - findItemType: beetle
+    findItemSprite: {fileID: 21300000, guid: 2827f1f75cce3bc44b5267c928e5f0cc, type: 3}
+    findItemKeylist:
+    - findItem_beetle_bonnet
+    - findItem_beetle_treeTop
+    - findItem_beetle_yaneTop
+    - findItem_beetle_vangarou
