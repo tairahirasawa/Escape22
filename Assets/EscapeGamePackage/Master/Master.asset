@@ -18,37 +18,37 @@ MonoBehaviour:
   googleAdSettings:
     Banner:
       Android:
-        unitID: ca-app-pub-9200527557125596/7161883061
+        unitID: ca-app-pub-9200527557125596/1901817798
       ios:
-        unitID: ca-app-pub-9200527557125596/4232467393
+        unitID: ca-app-pub-9200527557125596/7523190422
       unexpected:
         unitID: 
     InterStatial:
       Android:
-        unitID: ca-app-pub-9200527557125596/8235291589
+        unitID: ca-app-pub-9200527557125596/6293869234
       ios:
-        unitID: ca-app-pub-9200527557125596/1606304050
+        unitID: ca-app-pub-9200527557125596/8477391479
       unexpected:
         unitID: 
     Reward:
       Android:
-        unitID: ca-app-pub-9200527557125596/8171712404
+        unitID: ca-app-pub-9200527557125596/4534277039
       ios:
-        unitID: ca-app-pub-9200527557125596/9293222387
+        unitID: ca-app-pub-9200527557125596/9786603710
       unexpected:
         unitID: 
     AppOpenAd:
       Android:
-        unitID: ca-app-pub-9200527557125596/6858630732
+        unitID: ca-app-pub-9200527557125596/4336409446
       ios:
-        unitID: ca-app-pub-9200527557125596/6922209919
+        unitID: ca-app-pub-9200527557125596/4705455390
       unexpected:
         unitID: 
     RewardSubEvent:
       Android:
-        unitID: ca-app-pub-9200527557125596/3301409548
+        unitID: ca-app-pub-9200527557125596/1908113692
       ios:
-        unitID: ca-app-pub-9200527557125596/9769216171
+        unitID: ca-app-pub-9200527557125596/7331618730
       unexpected:
         unitID: 
     LoadingScene:

@@ -5,16 +5,16 @@ using UnityEditor.iOS.Xcode;
 using UnityEngine;
 public class ATTLocalization
 {
-    private static string englishAppName = "Mini Trip";
-    private static string japaneseAppName = "Mini Trip";
-    private static string simplifiedChineseAppName = "Mini Trip";
-    private static string traditionalChineseAppName = "Mini Trip";
-    private static string koreanAppName = "Mini Trip";
-    private static string russianAppName = "Mini Trip";
-    private static string spanishAppName = "Mini Trip";
-    private static string portugueseAppName = "Mini Trip";
-    private static string frenchAppName = "Mini Trip";
-    private static string germanAppName = "Mini Trip";
+    private static string englishAppName = "Mini Trip 2";
+    private static string japaneseAppName = "Mini Trip 2";
+    private static string simplifiedChineseAppName = "Mini Trip 2";
+    private static string traditionalChineseAppName = "Mini Trip 2";
+    private static string koreanAppName = "Mini Trip 2";
+    private static string russianAppName = "Mini Trip 2";
+    private static string spanishAppName = "Mini Trip 2";
+    private static string portugueseAppName = "Mini Trip 2";
+    private static string frenchAppName = "Mini Trip 2";
+    private static string germanAppName = "Mini Trip 2";
 
     private static string englishATTDescription = "You Will Be More Likely To See Ads That Interest You.";
     private static string japaneseATTDescription = "興味のある広告が表示されやすくなります.";

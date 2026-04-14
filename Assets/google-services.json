@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "1045022768338",
-    "project_id": "escapegame-memopad",
-    "storage_bucket": "escapegame-memopad.firebasestorage.app"
+    "project_number": "987930634640",
+    "project_id": "escape-game-mini-trip-2",
+    "storage_bucket": "escape-game-mini-trip-2.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1045022768338:android:b1e0b952976288d2ba010b",
+        "mobilesdk_app_id": "1:987930634640:android:c5727ab459030c985fab15",
         "android_client_info": {
-          "package_name": "com.TennpaGames.MemoPad"
+          "package_name": "com.TennpaGames.MiniTrip2"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAPt7cNS6N_iculVDqgEB2fT_DL0xnRnG4"
+          "current_key": "AIzaSyCZ58WN_rNPNRxK8kI4Y88zuDjI77Q8V2k"
         }
       ],
       "services": {
