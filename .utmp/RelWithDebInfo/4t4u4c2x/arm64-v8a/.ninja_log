@@ -1,5 +1,5 @@
 # ninja log v5
-137	5958	7979409193625138	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	3757abfc325337c8
-5959	7302	7979409206994635	D:/unity/EscapeProject22/Escape22/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4t4u4c2x/obj/arm64-v8a/libswappywrapper.so	18d3f918583eca7b
-27	3736	7979414656428867	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	3757abfc325337c8
-3736	4907	7979414668073898	D:/unity/EscapeProject22/Escape22/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4t4u4c2x/obj/arm64-v8a/libswappywrapper.so	18d3f918583eca7b
+215	13025	7979642669594141	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	3757abfc325337c8
+13025	14131	7979642680271513	D:/unity/EscapeProject22/Escape22/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4t4u4c2x/obj/arm64-v8a/libswappywrapper.so	18d3f918583eca7b
+29	3964	7979649363004931	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	3757abfc325337c8
+3965	5157	7979649374833354	D:/unity/EscapeProject22/Escape22/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/4t4u4c2x/obj/arm64-v8a/libswappywrapper.so	18d3f918583eca7b
