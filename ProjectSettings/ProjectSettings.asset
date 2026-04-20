@@ -916,7 +916,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -941,7 +947,7 @@ PlayerSettings:
   cloudProjectId: cb81dc82-e2a7-4fb2-acb0-7ebb1aee7ec1
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Escape19 2025-06-26_10-08-58
+  projectName: Escape22
   organizationId: tennpa
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

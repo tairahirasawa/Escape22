@@ -36,9 +36,293 @@ MonoBehaviour:
       elementIcon: {fileID: 0}
     reqReferences: {fileID: 0}
     isExpanded: 1
-    _keyValues: []
-    _keys: []
-    _values: []
+    _keyValues:
+    - haburashi
+    - sissors
+    - hari
+    - 500yen
+    _keys:
+    - haburashi
+    - sissors
+    - hari
+    - 500yen
+    _values:
+    - ItemSprite: {fileID: 21300000, guid: cb9dce145c72c0d4fbb5f4f5e58e8692, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 4
+          saveKey: get_haburashi
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_haburashi
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+        gameObjectName: ItemBase
+    - ItemSprite: {fileID: 21300000, guid: 20d9e9c359a92594b8579d3cc47d0aee, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_haburashi
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_sissors
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+        gameObjectName: ItemBase
+    - ItemSprite: {fileID: 21300000, guid: 5d7d7e393942a274cba9ccf45c201daf, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_sissors
+      disableSwitch:
+        judgeType: 2
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_hari_01
+        - episodeType: 4
+          saveKey: use_hari_02
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+        gameObjectName: ItemBase
+    - ItemSprite: {fileID: 21300000, guid: ca110c83bb1c0b946848d0442b2e06d3, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_hari_02
+      disableSwitch:
+        judgeType: 2
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_500yen
+        - episodeType: 4
+          saveKey: use_hari_02
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+        gameObjectName: ItemBase
   CollectionItemDataList:
     reorderableList:
       canAdd: 1
