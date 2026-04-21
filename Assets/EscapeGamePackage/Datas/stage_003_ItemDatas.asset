@@ -41,11 +41,15 @@ MonoBehaviour:
     - sissors
     - hari
     - 500yen
+    - baketu
+    - baketu_esa
     _keys:
     - haburashi
     - sissors
     - hari
     - 500yen
+    - baketu
+    - baketu_esa
     _values:
     - ItemSprite: {fileID: 21300000, guid: cb9dce145c72c0d4fbb5f4f5e58e8692, type: 3}
       enableSwitch:
@@ -260,12 +264,146 @@ MonoBehaviour:
         - episodeType: 4
           saveKey: use_hari_02
       disableSwitch:
-        judgeType: 2
+        judgeType: 1
         progressKeys:
         - episodeType: 4
           saveKey: use_500yen
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+        gameObjectName: ItemBase
+    - ItemSprite: {fileID: 21300000, guid: 9d469f6d277ad6d42b7c0bf47c33d80d, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
         - episodeType: 4
-          saveKey: use_hari_02
+          saveKey: get_baketu_before
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_baketu_before
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+        gameObjectName: ItemBase
+    - ItemSprite: {fileID: 21300000, guid: d4c6b2af29facd44dbd05010ab835f5e, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_baketu_before
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 4
+          saveKey: use_baketu_after
       eventActionConfig:
         eventActionTrigger:
           triggerType: 0
