@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/EscapeGamePackage/Scenes/StageScean_ramen.unity
     guid: ca6ebeadd99e82a4ca63a47b092a0c53
+  - enabled: 1
+    path: Assets/EscapeGamePackage/Scenes/StageScean_aquarium.unity
+    guid: 86b1050a6cf523d4d92067981f312b5e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

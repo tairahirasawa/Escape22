@@ -75,8 +75,8 @@ MonoBehaviour:
         \u0431\u0443\u0434\u0435\u0442 \u0443\u0434\u0430\u043B\u0435\u043D\u0430
         \u043D\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043C\u043E \u043E\u0442
         \u0441\u0443\u043C\u043C\u044B \u043F\u043E\u043A\u0443\u043F\u043A\u0438.
-        \u0421\u043E\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435 \u0438\u0433\u0440\u044B
-        \u043D\u0435 \u043C\u0435\u043D\u044F\u0435\u0442\u0441\u044F \u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u043C\u043E\u0441\u0442\u0438
+        \u041A\u043E\u043D\u0442\u0435\u043D\u0442 \u043D\u0435 \u043C\u0435\u043D\u044F\u0435\u0442\u0441\u044F
+        \u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u043C\u043E\u0441\u0442\u0438
         \u043E\u0442 \u0441\u0443\u043C\u043C\u044B.\n\n\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
         \u0432\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0441\u0443\u043C\u043C\u0443,
         \u043A\u043E\u0442\u043E\u0440\u0443\u044E \u0432\u044B \u043C\u043E\u0436\u0435\u0442\u0435
@@ -1841,18 +1841,20 @@ MonoBehaviour:
         \uC694\uC18C\uAC00 \uC788\uC2B5\uB2C8\uB2E4."
       - "\u901A\u5173\u6E38\u620F\u540E\u8FD8\u53EF\u4EE5\u4EAB\u53D7\u5956\u52B1\u8981\u7D20\u3002"
       - "\u901A\u95DC\u904A\u6232\u5F8C\u9084\u53EF\u4EE5\u4EAB\u53D7\u734E\u52F5\u8981\u7D20\u3002"
-      - "\u0414\u0430\u0436\u0435 \u043F\u043E\u0441\u043B\u0435 \u043F\u0440\u043E\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u044F
-        \u0438\u0433\u0440\u044B \u0432\u0430\u0441 \u0436\u0434\u0443\u0442 \u0431\u043E\u043D\u0443\u0441\u043D\u044B\u0435
+      - "\u0412 \u0438\u0433\u0440\u0435 \u0435\u0441\u0442\u044C \u0431\u043E\u043D\u0443\u0441\u043D\u044B\u0435
         \u0444\u0443\u043D\u043A\u0446\u0438\u0438, \u0432 \u043A\u043E\u0442\u043E\u0440\u044B\u0435
-        \u043C\u043E\u0436\u043D\u043E \u0441\u044B\u0433\u0440\u0430\u0442\u044C."
+        \u043C\u043E\u0436\u043D\u043E \u043F\u043E\u0438\u0433\u0440\u0430\u0442\u044C
+        \u0434\u0430\u0436\u0435 \u043F\u043E\u0441\u043B\u0435 \u043F\u0440\u043E\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u044F
+        \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439 \u0441\u044E\u0436\u0435\u0442\u043D\u043E\u0439
+        \u043B\u0438\u043D\u0438\u0438."
       - "Hay funciones adicionales a las que puedes acceder incluso despu\xE9s de
-        terminar el juego."
-      - "Existem recursos b\xF4nus que voc\xEA pode jogar mesmo depois de terminar
-        o jogo."
-      - "Des fonctionnalit\xE9s bonus sont disponibles m\xEAme apr\xE8s avoir termin\xE9
-        le jeu."
-      - "Es gibt Bonusfunktionen, die Sie auch nach dem Durchspielen des Spiels nutzen
-        k\xF6nnen."
+        completar la historia principal."
+      - "Existem recursos b\xF4nus que voc\xEA pode jogar mesmo depois de concluir
+        a hist\xF3ria principal."
+      - "Il existe des fonctionnalit\xE9s bonus auxquelles vous pouvez jouer m\xEAme
+        apr\xE8s avoir termin\xE9 l'histoire principale."
+      - "Es gibt Bonusfunktionen, die Sie auch nach Abschluss der Hauptgeschichte
+        spielen k\xF6nnen."
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: CommonMessage/ending_message_03
@@ -2894,112 +2896,252 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - 
+      - It's taking so long...
       - "\u9045\u3044\u306A\u3041\u3001\u3001\u3001\u3001"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\uB290\uB9B0,,,,,"
+      - "\u65F6\u95F4\u592A\u957F\u4E86\u2026\u2026"
+      - "\u6642\u9593\u592A\u9577\u4E86\u2026"
+      - "\u042D\u0442\u043E \u0437\u0430\u043D\u0438\u043C\u0430\u0435\u0442 \u0442\u0430\u043A
+        \u043C\u043D\u043E\u0433\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438..."
+      - "Est\xE1 tardando much\xEDsimo..."
+      - "Est\xE1 demorando muito..."
+      - "\xC7a prend tellement de temps..."
+      - Es dauert so lange...
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Message/stage_003_opening_g_01
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Where is Edward??
       - "\u30A8\u30C9\u30EF\u30FC\u30C9\u306F\u3069\u3053\u3060\uFF1F\uFF1F"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\uC5D0\uB4DC\uC6CC\uB4DC\uB294 \uC5B4\uB514\uC57C? ?"
+      - "\u7231\u5FB7\u534E\u5728\u54EA\u513F\uFF1F"
+      - "\u611B\u5FB7\u83EF\u5728\u54EA\u88E1\uFF1F"
+      - "\u0413\u0434\u0435 \u042D\u0434\u0432\u0430\u0440\u0434??"
+      - "\xBFD\xF3nde est\xE1 Edward?"
+      - "Onde est\xE1 Edward??"
+      - "O\xF9 est Edward\_?"
+      - Wo ist Edward?
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Message/stage_003_opening_g_02
       TermType: 0
       Description: 
       Languages:
-      - 
+      - We were supposed to meet in front of the aquarium, but...
       - "\u6C34\u65CF\u9928\u306E\u524D\u3067\u5F85\u3061\u5408\u308F\u305B\u306E\u306F\u305A\u306A\u306E\u306B\u3001\u3001\u3001"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\uC218\uC871\uAD00 \uC55E\uC5D0\uC11C \uB9CC\uB0A0 \uAC83\uC778\uB370,,,"
+      - "\u6211\u4EEC\u539F\u672C\u7EA6\u597D\u5728\u6C34\u65CF\u9986\u524D\u89C1\u9762\uFF0C\u4F46\u662F\u2026\u2026"
+      - "\u6211\u5011\u539F\u672C\u7D04\u597D\u5728\u6C34\u65CF\u9928\u524D\u898B\u9762\uFF0C\u4F46\u662F\u2026"
+      - "\u041C\u044B \u0434\u043E\u043B\u0436\u043D\u044B \u0431\u044B\u043B\u0438
+        \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u0442\u044C\u0441\u044F \u043F\u0435\u0440\u0435\u0434
+        \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C\u043E\u043C, \u043D\u043E..."
+      - "\xCDbamos a encontrarnos frente al acuario, pero..."
+      - "T\xEDnhamos combinado de nos encontrar em frente ao aqu\xE1rio, mas..."
+      - Nous devions nous retrouver devant l'aquarium, mais...
+      - Wir wollten uns vor dem Aquarium treffen, aber...
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Message/stage_003_use_500yen_00
       TermType: 0
       Description: 
       Languages:
-      - 
+      - The entrance fee is 500 yen.
       - "\u5165\u5834\u6599\u306F500\u5186\u3060\u3088\u30FC\u3002"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\uC785\uC7A5\uB8CC\uB294 500\uC5D4\uC774\uC5D0\uC694."
+      - "\u5165\u573A\u8D39\u4E3A500\u65E5\u5143\u3002"
+      - "\u5165\u5834\u8CBB\u70BA500\u65E5\u5713\u3002"
+      - "\u0412\u0445\u043E\u0434\u043D\u0430\u044F \u043F\u043B\u0430\u0442\u0430
+        \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 500 \u0438\u0435\u043D."
+      - La entrada cuesta 500 yenes.
+      - "O pre\xE7o da entrada \xE9 de 500 ienes."
+      - "Le prix d'entr\xE9e est de 500 yens."
+      - Der Eintritt kostet 500 Yen.
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Message/stage_003_use_500yen_01
       TermType: 0
       Description: 
       Languages:
-      - 
+      - Yes, I have received the 500 yen!
       - "\u306F\u3044\u3001500\u5186\u3001\u78BA\u304B\u306B\u53D7\u3051\u53D6\u308A\u307E\u3057\u305F\uFF01"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\uB124, 500\uC5D4, \uD655\uC2E4\uD788 \uBC1B\uC558\uC2B5\uB2C8\uB2E4!"
+      - "\u662F\u7684\uFF0C\u6211\u5DF2\u7ECF\u6536\u5230500\u65E5\u5143\u4E86\uFF01"
+      - "\u662F\u7684\uFF0C\u6211\u5DF2\u7D93\u6536\u5230500\u65E5\u5143\u4E86\uFF01"
+      - "\u0414\u0430, \u044F \u043F\u043E\u043B\u0443\u0447\u0438\u043B 500 \u0438\u0435\u043D!"
+      - "\xA1S\xED, he recibido los 500 yenes!"
+      - Sim, eu recebi os 500 ienes!
+      - "Oui, j'ai re\xE7u les 500 yens !"
+      - Ja, ich habe die 500 Yen erhalten!
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Message/stage_003_use_500yen_02
       TermType: 0
       Description: 
       Languages:
-      - 
+      - I left the entrance open.
       - "\u5165\u308A\u53E3\u3092\u958B\u3051\u3068\u3044\u305F\u3088\u3002"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\uC785\uAD6C\uB97C \uC5F4\uACE0 \uC788\uC5C8\uC5B4."
+      - "\u6211\u79BB\u5F00\u65F6\u5FD8\u8BB0\u5173\u95E8\u4E86\u3002"
+      - "\u6211\u96E2\u958B\u6642\u5FD8\u8A18\u95DC\u9580\u4E86\u3002"
+      - "\u042F \u043E\u0441\u0442\u0430\u0432\u0438\u043B \u0432\u0445\u043E\u0434
+        \u043E\u0442\u043A\u0440\u044B\u0442\u044B\u043C."
+      - "Dej\xE9 la entrada abierta."
+      - Deixei a entrada aberta.
+      - "J'ai laiss\xE9 l'entr\xE9e ouverte."
+      - Ich habe den Eingang offen gelassen.
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Message/stage_003_use_baketu_00
       TermType: 0
       Description: 
       Languages:
-      - 
+      - I scooped up the fish with a bucket.
       - "\u30D0\u30B1\u30C4\u3067\u9B5A\u3092\u3059\u304F\u3063\u305F\u3002"
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
-      - 
+      - "\uC591\uB3D9\uC774\uB85C \uBB3C\uACE0\uAE30\uB97C \uD5F9\uAD6C\uC5C8\uB2E4."
+      - "\u6211\u7528\u6876\u628A\u9C7C\u8200\u4E86\u8D77\u6765\u3002"
+      - "\u6211\u7528\u6C34\u6876\u628A\u9B5A\u8200\u4E86\u8D77\u4F86\u3002"
+      - "\u042F \u0432\u044B\u043B\u043E\u0432\u0438\u043B \u0440\u044B\u0431\u0443
+        \u0432\u0435\u0434\u0440\u043E\u043C."
+      - "Recog\xED los peces con un cubo."
+      - Peguei os peixes com um balde.
+      - "J'ai ramass\xE9 les poissons avec un seau."
+      - Ich habe die Fische mit einem Eimer aufgesammelt.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Message/stage_003_uketuke_00
+      TermType: 0
+      Description: 
+      Languages:
+      - Ah, I'm so sleepy...
+      - "\u3042\u30FC\u3001\u3001\u306D\u3080\u3044\u306A\u3041\u3001\u3001"
+      - "\uC544, \uB124\uBB34\uC774,"
+      - "\u554A\uFF0C\u6211\u597D\u56F0\u2026\u2026"
+      - "\u554A\uFF0C\u6211\u597D\u774F\u2026"
+      - "\u0410\u0445, \u044F \u0442\u0430\u043A \u0445\u043E\u0447\u0443 \u0441\u043F\u0430\u0442\u044C..."
+      - "\xA1Ay, qu\xE9 sue\xF1o tengo!"
+      - Ah, estou com tanto sono...
+      - Ah, j'ai tellement sommeil...
+      - "Ach, ich bin so m\xFCde..."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Message/stage_003_uketuke_01
+      TermType: 0
+      Description: 
+      Languages:
+      - The working hours are way too long...
+      - "\u3060\u3044\u305F\u3044\u52E4\u52D9\u6642\u9593\u304C\u9577\u3059\u304E\u308B\u3088\u3001\u3001\u3001"
+      - "\uB300\uCCB4\uB85C \uADFC\uBB34 \uC2DC\uAC04\uC774 \uB108\uBB34 \uAE41\uB2C8\uB2E4."
+      - "\u5DE5\u4F5C\u65F6\u95F4\u592A\u957F\u4E86\u2026\u2026"
+      - "\u5DE5\u4F5C\u6642\u9593\u592A\u9577\u4E86\u2026"
+      - "\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0434\u0435\u043D\u044C \u0441\u043B\u0438\u0448\u043A\u043E\u043C
+        \u0434\u043B\u0438\u043D\u043D\u044B\u0439..."
+      - Las jornadas laborales son demasiado largas...
+      - "A jornada de trabalho \xE9 excessivamente longa..."
+      - Les horaires de travail sont beaucoup trop longs...
+      - Die Arbeitszeiten sind viel zu lang...
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Message/stage_003_uketuke_02
+      TermType: 0
+      Description: 
+      Languages:
+      - Oh, I'm sorry. I was spacing out!
+      - "\u3042\u3042\u3001\u3059\u307F\u307E\u305B\u3093\u3002\u30DC\u30FC\u3063\u3068\u3057\u3066\u307E\u3057\u305F\uFF01"
+      - "\uC624, \uC8C4\uC1A1\uD569\uB2C8\uB2E4. \uBCF4 \uC7A4\uC5B4\uC694!"
+      - "\u54E6\uFF0C\u5BF9\u4E0D\u8D77\uFF0C\u6211\u8D70\u795E\u4E86\uFF01"
+      - "\u54E6\uFF0C\u5C0D\u4E0D\u8D77\uFF0C\u6211\u5206\u5FC3\u4E86\uFF01"
+      - "\u041E\u0439, \u043F\u0440\u043E\u0441\u0442\u0438\u0442\u0435. \u042F \u043E\u0442\u0432\u043B\u0435\u043A\u043B\u0430\u0441\u044C!"
+      - "Oh, lo siento. \xA1Estaba distra\xEDdo!"
+      - "Ah, desculpe. Eu estava distra\xEDda!"
+      - "Oh, pardon. J'\xE9tais dans la lune !"
+      - Oh, tut mir leid. Ich war in Gedanken versunken!
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Message/stage_003_uketuke_03
+      TermType: 0
+      Description: 
+      Languages:
+      - Is it time to feed the whale sharks?
+      - "\u30B8\u30F3\u30D9\u30A4\u30B6\u30E1\u306E\u30A8\u30B5\u3084\u308A\u306E\u6642\u9593\u3067\u3059\u304B\uFF1F"
+      - "\uACE0\uB798 \uC0C1\uC5B4 \uBA39\uC774 \uC2DC\uAC04?"
+      - "\u73B0\u5728\u662F\u5582\u9CB8\u9CA8\u7684\u65F6\u5019\u4E86\u5417\uFF1F"
+      - "\u73FE\u5728\u662F\u9935\u9BE8\u9BCA\u7684\u6642\u5019\u4E86\u55CE\uFF1F"
+      - "\u041F\u043E\u0440\u0430 \u043B\u0438 \u043A\u043E\u0440\u043C\u0438\u0442\u044C
+        \u043A\u0438\u0442\u043E\u0432\u044B\u0445 \u0430\u043A\u0443\u043B?"
+      - "\xBFEs hora de alimentar a los tiburones ballena?"
+      - "Chegou a hora de alimentar os tubar\xF5es-baleia?"
+      - Est-il temps de nourrir les requins-baleines ?
+      - "Ist es an der Zeit, die Walhaie zu f\xFCttern?"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Message/stage_003_uketuke_04
+      TermType: 0
+      Description: 
+      Languages:
+      - It starts at 13:25.
+      - "13\uFF1A25\u5206\u304B\u3089\u3067\u3059\u3002"
+      - "13:25\uBD84\uBD80\uD130\uC785\uB2C8\uB2E4."
+      - "\u6F14\u51FA\u4ECE13:25\u5F00\u59CB\u3002"
+      - "\u6F14\u51FA\u5F9E13:25\u958B\u59CB\u3002"
+      - "\u041D\u0430\u0447\u0430\u043B\u043E \u0432 13:25."
+      - Comienza a las 13:25.
+      - "Come\xE7a \xE0s 13h25."
+      - "\xC7a commence \xE0 13h25."
+      - Es beginnt um 13:25 Uhr.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Message/stage_003_ending_g_00
+      TermType: 0
+      Description: 
+      Languages:
+      - Edward! You were there!
+      - "\u30A8\u30C9\u30EF\u30FC\u30C9\uFF01\u305D\u3053\u306B\u3044\u305F\u306E\u304B\uFF01"
+      - "\uC5D0\uB4DC\uC6CC\uB4DC! \uAC70\uAE30\uC5D0 \uC788\uC5C8\uB294\uC9C0!"
+      - "\u7231\u5FB7\u534E\uFF01\u4F60\u5F53\u65F6\u4E5F\u5728\u573A\uFF01"
+      - "\u611B\u5FB7\u83EF\uFF01\u4F60\u7576\u6642\u4E5F\u5728\u5834\uFF01"
+      - "\u042D\u0434\u0432\u0430\u0440\u0434! \u0422\u044B \u0436\u0435 \u0442\u0430\u043C
+        \u0431\u044B\u043B!"
+      - "\xA1Edward! \xA1Estuviste all\xED!"
+      - "Edward! Voc\xEA estava l\xE1!"
+      - "Edward ! Tu \xE9tais l\xE0 !"
+      - Edward! Du warst dabei!
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Message/stage_003_ending_e_01
+      TermType: 0
+      Description: 
+      Languages:
+      - Well, I just couldn't help it...
+      - "\u3044\u3084\u30FC\u3001\u3064\u3044\u3064\u3044\u3001\u3001"
+      - "\uC544\uB2C8, \uADF8\uB9CC,,"
+      - "\u6211\u5B9E\u5728\u5FCD\u4E0D\u4F4F\u2026\u2026"
+      - "\u6211\u5BE6\u5728\u5FCD\u4E0D\u4F4F\u2026"
+      - "\u041D\u0443, \u044F \u043F\u0440\u043E\u0441\u0442\u043E \u043D\u0435 \u043C\u043E\u0433
+        \u0443\u0434\u0435\u0440\u0436\u0430\u0442\u044C\u0441\u044F..."
+      - Bueno, no pude evitarlo...
+      - "Bem, eu simplesmente n\xE3o consegui evitar..."
+      - "Eh bien, je n'ai pas pu m'en emp\xEAcher..."
+      - Tja, ich konnte einfach nicht anders...
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: Message/stage_003_ending_e_02
+      TermType: 0
+      Description: 
+      Languages:
+      - The jellyfish were so beautiful, I was mesmerized!
+      - "\u6D77\u6708\u304C\u7DBA\u9E97\u3067\u898B\u3068\u308C\u3061\u3083\u3063\u305F\uFF01"
+      - "\uCE74\uC774\uC988\uD0A4\uAC00 \uAE68\uB057\uD558\uACE0 \uBCFC \uC218 \uC788\uC5C8\uB2E4!"
+      - "\u6C34\u6BCD\u592A\u7F8E\u4E86\uFF0C\u6211\u770B\u5F97\u5165\u4E86\u8FF7\uFF01"
+      - "\u6C34\u6BCD\u592A\u7F8E\u4E86\uFF0C\u6211\u770B\u5F97\u5165\u8FF7\u4E86\uFF01"
+      - "\u041C\u0435\u0434\u0443\u0437\u044B \u0431\u044B\u043B\u0438 \u043D\u0430\u0441\u0442\u043E\u043B\u044C\u043A\u043E
+        \u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u044B, \u0447\u0442\u043E
+        \u044F \u0431\u044B\u043B \u043E\u0447\u0430\u0440\u043E\u0432\u0430\u043D!"
+      - "\xA1Las medusas eran tan hermosas que me qued\xE9 hipnotizada!"
+      - "As \xE1guas-vivas eram t\xE3o lindas que fiquei hipnotizado!"
+      - "Les m\xE9duses \xE9taient tellement belles, j'\xE9tais hypnotis\xE9e !"
+      - "Die Quallen waren so sch\xF6n, ich war wie hypnotisiert!"
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: stageName/stage_000
@@ -3048,6 +3190,23 @@ MonoBehaviour:
       - "Loja de ramen n\xBA 3"
       - "Restaurant de ramen n\xB03"
       - Ramen-Laden Nr. 3
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stageName/stage_003
+      TermType: 0
+      Description: 
+      Languages:
+      - Aquarium Part 1
+      - "\u6C34\u65CF\u9928\u305D\u306E\uFF11"
+      - "\uC218\uC871\uAD00 \uADF8 1"
+      - "\u6C34\u65CF\u7BB1 \u7B2C\u4E00\u90E8\u5206"
+      - "\u6C34\u65CF\u7BB1 \u7B2C\u4E00\u90E8\u5206"
+      - "\u0410\u043A\u0432\u0430\u0440\u0438\u0443\u043C. \u0427\u0430\u0441\u0442\u044C
+        1."
+      - Acuario Parte 1
+      - "Aqu\xE1rio Parte 1"
+      - Aquarium Partie 1
+      - Aquarium Teil 1
       Flags: 00000000000000000000
       Languages_Touch: []
     - Term: Font/textFont
@@ -4790,7 +4949,7 @@ MonoBehaviour:
       Languages:
       - The toilet sign looks suspicious.
       - "\u30C8\u30A4\u30EC\u306E\u30DE\u30FC\u30AF\u304C\u602A\u3057\u3044\u3002"
-      - "\uD654\uC7A5\uC2E4 \uB9C8\uD06C\uAC00 \uC218\uC0C1\uD558\uB2E4."
+      - "\uD654\uC7A5\uC2E4\uC758 \uB9C8\uD06C\uAC00 \uC218\uC0C1\uD558\uB2E4."
       - "\u5395\u6240\u7684\u6807\u5FD7\u770B\u8D77\u6765\u5F88\u53EF\u7591\u3002"
       - "\u5EC1\u6240\u7684\u6A19\u8A8C\u770B\u8D77\u4F86\u5F88\u53EF\u7591\u3002"
       - "\u0422\u0430\u0431\u043B\u0438\u0447\u043A\u0430 \u043D\u0430 \u0442\u0443\u0430\u043B\u0435\u0442\u0435
@@ -6188,6 +6347,984 @@ MonoBehaviour:
         Wenn sie kaputt ist, k\xF6nnen Sie sowieso nichts daran \xE4ndern."
       Flags: 00000000000000000000
       Languages_Touch: []
+    - Term: stage_003_answer/opening
+      TermType: 0
+      Description: 
+      Languages:
+      - blank
+      - blank
+      - blank
+      - "\u7A7A\u767D\u7684"
+      - "\u7A7A\u767D\u7684"
+      - "\u043F\u0443\u0441\u0442\u043E\u0439"
+      - blanco
+      - em branco
+      - vide
+      - leer
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/open_shutter
+      TermType: 0
+      Description: 
+      Languages:
+      - 'There are fish silhouettes drawn on the left wall of the aquarium. Let''s
+        input their positions into the shutter. From top to bottom: center, left,
+        right, center, right, center.'
+      - "\u6C34\u65CF\u9928\u306E\u5DE6\u5074\u306E\u58C1\u306B\u3001\u9B5A\u306E\u30B7\u30EB\u30A8\u30C3\u30C8\u304C\u63CF\u3044\u3066\u3042\u308B\u306D\u3002\u305D\u306E\u4F4D\u7F6E\u3092\u30B7\u30E3\u30C3\u30BF\u30FC\u306B\u5165\u529B\u3057\u3088\u3046\u3002\u4E0A\u304B\u3089\u4E2D\u3001\u5DE6\u3001\u53F3\u3001\u4E2D\u3001\u53F3\u3001\u4E2D\u3060\u3002"
+      - "\uC218\uC871\uAD00\uC758 \uC67C\uCABD \uBCBD\uC5D0 \uBB3C\uACE0\uAE30\uC758
+        \uC2E4\uB8E8\uC5E3\uC774 \uADF8\uB824\uC838 \uC788\uAD70\uC694. \uADF8 \uC704\uCE58\uB97C
+        \uC154\uD130\uC5D0 \uC785\uB825\uD558\uC790. \uC704\uC5D0\uC11C \uC911, \uC67C\uCABD,
+        \uC624\uB978\uCABD, \uC911, \uC624\uB978\uCABD, \uC911\uC774\uB2E4."
+      - "\u6C34\u65CF\u7BB1\u5DE6\u4FA7\u5899\u58C1\u4E0A\u753B\u7740\u9C7C\u7684\u8F6E\u5ED3\u3002\u8BA9\u6211\u4EEC\u628A\u5B83\u4EEC\u7684\u4F4D\u7F6E\u8F93\u5165\u5230\u5FEB\u95E8\u4E2D\u3002\u4ECE\u4E0A\u5230\u4E0B\uFF1A\u4E2D\u95F4\u3001\u5DE6\u8FB9\u3001\u53F3\u8FB9\u3001\u4E2D\u95F4\u3001\u53F3\u8FB9\u3001\u4E2D\u95F4\u3002"
+      - "\u6C34\u65CF\u7BB1\u5DE6\u5074\u7246\u4E0A\u756B\u8457\u9B5A\u7684\u8F2A\u5ED3\u3002\u8B93\u6211\u5011\u628A\u5B83\u5011\u7684\u4F4D\u7F6E\u8F38\u5165\u5230\u5FEB\u9580\u4E2D\u3002\u7531\u4E0A\u81F3\u4E0B\uFF1A\u4E2D\u9593\u3001\u5DE6\u908A\u3001\u53F3\u908A\u3001\u4E2D\u9593\u3001\u53F3\u908A\u3001\u4E2D\u9593\u3002"
+      - "\u041D\u0430 \u043B\u0435\u0432\u043E\u0439 \u0441\u0442\u0435\u043D\u043A\u0435
+        \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C\u0430 \u043D\u0430\u0440\u0438\u0441\u043E\u0432\u0430\u043D\u044B
+        \u0441\u0438\u043B\u0443\u044D\u0442\u044B \u0440\u044B\u0431. \u0414\u0430\u0432\u0430\u0439\u0442\u0435
+        \u0432\u0432\u0435\u0434\u0435\u043C \u0438\u0445 \u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435
+        \u0432 \u0437\u0430\u0442\u0432\u043E\u0440. \u0421\u0432\u0435\u0440\u0445\u0443
+        \u0432\u043D\u0438\u0437: \u0446\u0435\u043D\u0442\u0440, \u043B\u0435\u0432\u044B\u0439,
+        \u043F\u0440\u0430\u0432\u044B\u0439, \u0446\u0435\u043D\u0442\u0440, \u043F\u0440\u0430\u0432\u044B\u0439,
+        \u0446\u0435\u043D\u0442\u0440."
+      - 'En la pared izquierda del acuario hay siluetas de peces dibujadas. Introduzcamos
+        sus posiciones en el obturador. De arriba abajo: centro, izquierda, derecha,
+        centro, derecha, centro.'
+      - "H\xE1 silhuetas de peixes desenhadas na parede esquerda do aqu\xE1rio. Vamos
+        inserir suas posi\xE7\xF5es no obturador. De cima para baixo: centro, esquerda,
+        direita, centro, direita, centro."
+      - "Des silhouettes de poissons sont dessin\xE9es sur la paroi gauche de l'aquarium.
+        Entrons leurs positions dans le dispositif. De haut en bas\_: centre, gauche,
+        droite, centre, droite, centre."
+      - 'An der linken Wand des Aquariums sind Fischsilhouetten aufgemalt. Geben
+        wir ihre Positionen in den Shutter ein. Von oben nach unten: Mitte, links,
+        rechts, Mitte, rechts, Mitte.'
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/box_haburashi
+      TermType: 0
+      Description: 
+      Languages:
+      - Tap the starfish to make it rotate. Enter which direction it rotated into
+        the blue treasure chest. The order is left, right, right, left, left, left.
+      - "\u30D2\u30C8\u30C7\u3092\u30BF\u30C3\u30D7\u3059\u308B\u3068\u56DE\u8EE2\u3059\u308B\u3088\u3002\u3069\u3061\u3089\u306E\u65B9\u5411\u306B\u56DE\u8EE2\u3057\u305F\u304B\u3092\u3001\u9752\u3044\u5B9D\u7BB1\u306B\u5165\u529B\u3057\u3088\u3046\u3002\u5DE6\u3001\u53F3\u3001\u53F3\u3001\u5DE6\u3001\u5DE6\u3001\u5DE6\u306E\u9806\u756A\u3060\u3002"
+      - "\uBD88\uAC00\uC0AC\uB9AC\uB97C \uD0ED\uD558\uBA74 \uD68C\uC804\uD569\uB2C8\uB2E4.
+        \uC5B4\uB290 \uBC29\uD5A5\uC73C\uB85C \uD68C\uC804\uD588\uB294\uC9C0\uB97C
+        \uD30C\uB780\uC0C9 \uBCF4\uBB3C \uC0C1\uC790\uC5D0 \uC785\uB825\uD569\uC2DC\uB2E4.
+        \uC67C\uCABD, \uC624\uB978\uCABD, \uC624\uB978\uCABD, \uC67C\uCABD, \uC67C\uCABD,
+        \uC67C\uCABD \uC21C\uC11C\uC774\uB2E4."
+      - "\u70B9\u51FB\u6D77\u661F\u4F7F\u5176\u65CB\u8F6C\u3002\u5C06\u6D77\u661F\u65CB\u8F6C\u7684\u65B9\u5411\u8F93\u5165\u5230\u84DD\u8272\u5B9D\u7BB1\u4E2D\u3002\u987A\u5E8F\u4E3A\uFF1A\u5DE6\u3001\u53F3\u3001\u53F3\u3001\u5DE6\u3001\u5DE6\u3001\u5DE6\u3002"
+      - "\u9EDE\u64CA\u6D77\u661F\u4F7F\u5176\u65CB\u8F49\u3002\u5C07\u6D77\u661F\u65CB\u8F49\u7684\u65B9\u5411\u8F38\u5165\u85CD\u8272\u5BF6\u7BB1\u3002\u9806\u5E8F\u70BA\uFF1A\u5DE6\u3001\u53F3\u3001\u53F3\u3001\u5DE6\u3001\u5DE6\u3001\u5DE6\u3002"
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430 \u043C\u043E\u0440\u0441\u043A\u0443\u044E
+        \u0437\u0432\u0435\u0437\u0434\u0443, \u0447\u0442\u043E\u0431\u044B \u043E\u043D\u0430
+        \u043F\u043E\u0432\u0435\u0440\u043D\u0443\u043B\u0430\u0441\u044C. \u0412\u0432\u0435\u0434\u0438\u0442\u0435
+        \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0432\u0440\u0430\u0449\u0435\u043D\u0438\u044F
+        \u0432 \u0441\u0438\u043D\u0438\u0439 \u0441\u0443\u043D\u0434\u0443\u043A
+        \u0441 \u0441\u043E\u043A\u0440\u043E\u0432\u0438\u0449\u0430\u043C\u0438.
+        \u041F\u043E\u0440\u044F\u0434\u043E\u043A \u0442\u0430\u043A\u043E\u0439:
+        \u0432\u043B\u0435\u0432\u043E, \u0432\u043F\u0440\u0430\u0432\u043E, \u0432\u043F\u0440\u0430\u0432\u043E,
+        \u0432\u043B\u0435\u0432\u043E, \u0432\u043B\u0435\u0432\u043E, \u0432\u043B\u0435\u0432\u043E."
+      - "Toca la estrella de mar para que gire. Introduce en el cofre del tesoro
+        azul en qu\xE9 direcci\xF3n gir\xF3. El orden es izquierda, derecha, derecha,
+        izquierda, izquierda, izquierda."
+      - "Toque na estrela-do-mar para faz\xEA-la girar. Insira a dire\xE7\xE3o da
+        rota\xE7\xE3o no ba\xFA do tesouro azul. A ordem \xE9 esquerda, direita,
+        direita, esquerda, esquerda, esquerda."
+      - "Touchez l'\xE9toile de mer pour la faire tourner. Indiquez le sens de rotation
+        dans le coffre au tr\xE9sor bleu. L'ordre est\_: gauche, droite, droite,
+        gauche, gauche, gauche."
+      - 'Tippe auf den Seestern, um ihn zu drehen. Gib die Drehrichtung in die blaue
+        Schatztruhe ein. Die Reihenfolge ist: links, rechts, rechts, links, links,
+        links.'
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/get_haburashi
+      TermType: 0
+      Description: 
+      Languages:
+      - Get the toothbrush from the blue treasure chest.
+      - "\u9752\u3044\u5B9D\u7BB1\u304B\u3089\u6B6F\u30D6\u30E9\u30B7\u3092\u5165\u624B\u3057\u3088\u3046\u3002"
+      - "\uD30C\uB780 \uBCF4\uBB3C \uC0C1\uC790\uC5D0\uC11C \uCE6B\uC194\uC744 \uC5BB\uC73C\uC2ED\uC2DC\uC624."
+      - "\u4ECE\u84DD\u8272\u5B9D\u7BB1\u91CC\u53D6\u51FA\u7259\u5237\u3002"
+      - "\u5F9E\u85CD\u8272\u5BF6\u7BB1\u53D6\u51FA\u7259\u5237\u3002"
+      - "\u0414\u043E\u0441\u0442\u0430\u043D\u044C\u0442\u0435 \u0437\u0443\u0431\u043D\u0443\u044E
+        \u0449\u0435\u0442\u043A\u0443 \u0438\u0437 \u0441\u0438\u043D\u0435\u0433\u043E
+        \u0441\u0443\u043D\u0434\u0443\u043A\u0430 \u0441 \u0441\u043E\u043A\u0440\u043E\u0432\u0438\u0449\u0430\u043C\u0438."
+      - Coge el cepillo de dientes del cofre del tesoro azul.
+      - "Pegue a escova de dentes no ba\xFA azul do tesouro."
+      - "R\xE9cup\xE9rez la brosse \xE0 dents dans le coffre au tr\xE9sor bleu."
+      - "Hol die Zahnb\xFCrste aus der blauen Schatztruhe."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/use_haburashi
+      TermType: 0
+      Description: 
+      Languages:
+      - Let's use a toothbrush on a shark.
+      - "\u30B5\u30E1\u306B\u6B6F\u30D6\u30E9\u30B7\u3092\u4F7F\u304A\u3046\u3002"
+      - "\uC0C1\uC5B4\uC5D0 \uCE6B\uC194\uC744 \uC0AC\uC6A9\uD569\uC2DC\uB2E4."
+      - "\u6211\u4EEC\u6765\u7528\u7259\u5237\u7ED9\u9CA8\u9C7C\u5237\u7259\u5427\u3002"
+      - "\u6211\u5011\u4F86\u7528\u7259\u5237\u5E6B\u9BCA\u9B5A\u5237\u7259\u5427\u3002"
+      - "\u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u043F\u043E\u0447\u0438\u0441\u0442\u0438\u043C
+        \u0430\u043A\u0443\u043B\u0443 \u0437\u0443\u0431\u043D\u043E\u0439 \u0449\u0435\u0442\u043A\u043E\u0439."
+      - "Vamos a usar un cepillo de dientes en un tibur\xF3n."
+      - "Vamos usar uma escova de dentes em um tubar\xE3o."
+      - "Utilisons une brosse \xE0 dents sur un requin."
+      - "Lass uns eine Zahnb\xFCrste an einem Hai benutzen."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/use_sissors
+      TermType: 0
+      Description: 
+      Languages:
+      - Use scissors to get the spines from the pufferfish.
+      - "\u30CF\u30EA\u30BB\u30F3\u30DC\u30F3\u306B\u30CF\u30B5\u30DF\u3092\u4F7F\u3063\u3066\u3001\u30CF\u30EA\u3092\u5165\u624B\u3057\u3088\u3046\u3002"
+      - "\uD558\uB9AC\uC13C\uBD09\uC5D0 \uAC00\uC704\uB97C \uC0AC\uC6A9\uD558\uC5EC
+        \uD0C4\uB825\uC744 \uC5BB\uC790."
+      - "\u7528\u526A\u5200\u526A\u6389\u6CB3\u8C5A\u7684\u523A\u3002"
+      - "\u7528\u526A\u5200\u526A\u6389\u6CB3\u8C5A\u7684\u523A\u3002"
+      - "\u0421 \u043F\u043E\u043C\u043E\u0449\u044C\u044E \u043D\u043E\u0436\u043D\u0438\u0446
+        \u0438\u0437\u0432\u043B\u0435\u043A\u0438\u0442\u0435 \u0448\u0438\u043F\u044B
+        \u0438\u0437 \u0440\u044B\u0431\u044B-\u0444\u0443\u0433\u0443."
+      - Utiliza tijeras para quitar las espinas del pez globo.
+      - Use uma tesoura para remover os espinhos do baiacu.
+      - "Utilisez des ciseaux pour retirer les \xE9pines du poisson-globe."
+      - Verwenden Sie eine Schere, um die Stacheln des Kugelfisches zu entfernen.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/use_hari_01
+      TermType: 0
+      Description: 
+      Languages:
+      - Let's use a needle to pop the snot bubble.
+      - "\u9F3B\u63D0\u706F\u306B\u30CF\u30EA\u3092\u4F7F\u3063\u3066\u9F3B\u63D0\u706F\u3092\u5272\u308D\u3046\u3002"
+      - "\uCF54 \uB4F1\uBD88\uC5D0 \uD0C4\uB825\uC744 \uC0AC\uC6A9\uD558\uC5EC \uCF54
+        \uB4F1\uBD88\uC744 \uB098\uB215\uB2C8\uB2E4."
+      - "\u6211\u4EEC\u7528\u9488\u628A\u9F3B\u6D95\u6CE1\u6233\u7834\u5427\u3002"
+      - "\u6211\u5011\u7528\u91DD\u628A\u9F3B\u6D95\u6CE1\u6233\u7834\u5427\u3002"
+      - "\u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u043B\u043E\u043F\u043D\u0435\u043C
+        \u044D\u0442\u043E\u0442 \u0441\u043E\u043F\u043B\u044F\u043A \u0438\u0433\u043E\u043B\u043A\u043E\u0439."
+      - Vamos a usar una aguja para reventar la burbuja de mocos.
+      - Vamos usar uma agulha para estourar a bolha de catarro.
+      - "Utilisons une aiguille pour faire \xE9clater la bulle de morve."
+      - Lass uns die Rotzblase mit einer Nadel zum Platzen bringen.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/use_hari_02
+      TermType: 0
+      Description: 
+      Languages:
+      - Let's use a needle to pop the ball the sea lion is playing with.
+      - "\u30A2\u30B7\u30AB\u306E\u904A\u3093\u3067\u3044\u308B\u30DC\u30FC\u30EB\u3092\u30CF\u30EA\u3067\u5272\u308D\u3046\u3002"
+      - "\uBC14\uB2E4 \uC0AC\uC2B4\uC774 \uB180\uACE0\uC788\uB294 \uACF5\uC744 \uD0C4\uB825\uC73C\uB85C
+        \uB098\uB204\uC2ED\uC2DC\uC624."
+      - "\u6211\u4EEC\u7528\u9488\u628A\u6D77\u72EE\u6B63\u5728\u73A9\u7684\u7403\u624E\u7834\u5427\u3002"
+      - "\u6211\u5011\u7528\u91DD\u628A\u6D77\u7345\u6B63\u5728\u73A9\u7684\u7403\u523A\u7834\u5427\u3002"
+      - "\u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u0432\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u043C\u0441\u044F
+        \u0438\u0433\u043E\u043B\u043A\u043E\u0439, \u0447\u0442\u043E\u0431\u044B
+        \u043F\u0440\u043E\u043A\u043E\u043B\u043E\u0442\u044C \u043C\u044F\u0447,
+        \u043A\u043E\u0442\u043E\u0440\u044B\u043C \u0438\u0433\u0440\u0430\u0435\u0442
+        \u043C\u043E\u0440\u0441\u043A\u043E\u0439 \u043B\u0435\u0432."
+      - "Vamos a usar una aguja para pinchar la pelota con la que est\xE1 jugando
+        el le\xF3n marino."
+      - "Vamos usar uma agulha para estourar a bola com a qual o le\xE3o-marinho
+        est\xE1 brincando."
+      - Utilisons une aiguille pour crever la balle avec laquelle joue l'otarie.
+      - "Lass uns mit einer Nadel den Ball zerstechen, mit dem der Seel\xF6we spielt."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/use_500yen
+      TermType: 0
+      Description: 
+      Languages:
+      - Give 500 yen to the receptionist and they'll open the entrance for you.
+      - "\u53D7\u4ED8\u306B500\u5186\u3092\u6E21\u3057\u3066\u3001\u5165\u308A\u53E3\u3092\u958B\u3051\u3066\u3082\u3089\u304A\u3046\u3002"
+      - "\uC811\uC218\uC5D0 500\uC5D4\uC744 \uAC74\uB124\uC8FC\uACE0, \uC785\uAD6C\uB97C
+        \uC5F4\uC5B4 \uC900\uB2E4."
+      - "\u7ED9\u63A5\u5F85\u5458500\u65E5\u5143\uFF0C\u4ED6\u4EEC\u5C31\u4F1A\u4E3A\u4F60\u5F00\u95E8\u3002"
+      - "\u7D66\u63A5\u5F85\u54E1500\u65E5\u5143\uFF0C\u4ED6\u5011\u5C31\u6703\u70BA\u4F60\u958B\u9580\u3002"
+      - "\u0414\u0430\u0439\u0442\u0435 500 \u0438\u0435\u043D \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u0443
+        \u043D\u0430 \u0440\u0435\u0441\u0435\u043F\u0448\u0435\u043D\u0435, \u0438
+        \u043E\u043D \u043E\u0442\u043A\u0440\u043E\u0435\u0442 \u0432\u0430\u043C
+        \u0432\u0445\u043E\u0434."
+      - "Dale 500 yenes a la recepcionista y te abrir\xE1 la entrada."
+      - "D\xEA 500 ienes \xE0 recepcionista e ela abrir\xE1 a entrada para voc\xEA."
+      - "Donnez 500 yens \xE0 la r\xE9ceptionniste et elle vous ouvrira l'entr\xE9e."
+      - "Geben Sie dem Rezeptionisten 500 Yen, dann wird Ihnen der Eingang ge\xF6ffnet."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/open_sikuinnDoor
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter the length of the line next to the baby bottle icon into the door on
+        the rocky area. From top to bottom, they are medium, medium, long, long,
+        short, and long.
+      - "\u54FA\u4E73\u74F6\u306E\u30DE\u30FC\u30AF\u306E\u6A2A\u306E\u30E9\u30A4\u30F3\u306E\u9577\u3055\u3092\u3001\u5CA9\u5834\u306E\u3068\u3053\u308D\u306B\u3042\u308B\u30C9\u30A2\u306B\u5165\u529B\u3057\u3088\u3046\u3002\u4E0A\u304B\u3089\u4E2D\u3001\u4E2D\u3001\u9577\u3001\u9577\u3001\u77ED\u3001\u9577\u3060\u3002"
+      - "\uD3EC\uC720\uBCD1\uC758 \uB9C8\uD06C \uC606\uC758 \uB77C\uC778\uC758 \uAE38\uC774\uB97C
+        \uC554\uC11D\uC7A5\uC758 \uBB38\uC5D0 \uC785\uB825\uD558\uC790. \uC704\uC5D0\uC11C
+        \uC911, \uC911, \uAE38, \uAE38, \uC9E7, \uAE38\uB2E4."
+      - "\u5C06\u5A74\u513F\u5976\u74F6\u56FE\u6807\u65C1\u8FB9\u7684\u7EBF\u6761\u957F\u5EA6\u8F93\u5165\u5230\u5CA9\u77F3\u533A\u57DF\u7684\u95E8\u4E2D\u3002\u4ECE\u4E0A\u5230\u4E0B\uFF0C\u5B83\u4EEC\u7684\u957F\u5EA6\u5206\u522B\u4E3A\uFF1A\u4E2D\u3001\u4E2D\u3001\u957F\u3001\u957F\u3001\u77ED\u3001\u957F\u3002"
+      - "\u5C07\u5B30\u5152\u5976\u74F6\u5716\u793A\u65C1\u7684\u7DDA\u689D\u9577\u5EA6\u8F38\u5165\u5230\u5CA9\u77F3\u5340\u57DF\u7684\u9580\u4E2D\u3002\u7531\u4E0A\u81F3\u4E0B\uFF0C\u5B83\u5011\u7684\u9577\u5EA6\u5206\u5225\u70BA\uFF1A\u4E2D\u3001\u4E2D\u3001\u9577\u3001\u9577\u3001\u77ED\u3001\u9577\u3002"
+      - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0434\u043B\u0438\u043D\u0443
+        \u043B\u0438\u043D\u0438\u0438 \u0440\u044F\u0434\u043E\u043C \u0441\u043E
+        \u0437\u043D\u0430\u0447\u043A\u043E\u043C \u0434\u0435\u0442\u0441\u043A\u043E\u0439
+        \u0431\u0443\u0442\u044B\u043B\u043E\u0447\u043A\u0438 \u0432 \u0434\u0432\u0435\u0440\u044C
+        \u043D\u0430 \u043A\u0430\u043C\u0435\u043D\u0438\u0441\u0442\u043E\u0439
+        \u043C\u0435\u0441\u0442\u043D\u043E\u0441\u0442\u0438. \u0421\u0432\u0435\u0440\u0445\u0443
+        \u0432\u043D\u0438\u0437 \u044D\u0442\u043E: \u0441\u0440\u0435\u0434\u043D\u044F\u044F,
+        \u200B\u200B\u0441\u0440\u0435\u0434\u043D\u044F\u044F, \u200B\u200B\u0434\u043B\u0438\u043D\u043D\u0430\u044F,
+        \u0434\u043B\u0438\u043D\u043D\u0430\u044F, \u043A\u043E\u0440\u043E\u0442\u043A\u0430\u044F
+        \u0438 \u0434\u043B\u0438\u043D\u043D\u0430\u044F."
+      - "Introduce la longitud de la l\xEDnea que aparece junto al icono del biber\xF3n
+        en la puerta de la zona rocosa. De arriba abajo, son mediana, mediana, larga,
+        larga, corta y larga."
+      - "Insira o comprimento da linha ao lado do \xEDcone da mamadeira na porta
+        da \xE1rea rochosa. De cima para baixo, os comprimentos s\xE3o: m\xE9dio,
+        m\xE9dio, longo, longo, curto e longo."
+      - "Saisissez la longueur du fil \xE0 c\xF4t\xE9 de l'ic\xF4ne du biberon dans
+        la porte situ\xE9e dans la zone rocheuse. De haut en bas, les longueurs sont\_:
+        moyenne, moyenne, longue, longue, courte et longue."
+      - "Gib die L\xE4nge der Linie neben dem Babyflaschensymbol in das T\xFCrfeld
+        im felsigen Bereich ein. Von oben nach unten sind die L\xE4ngen mittel, mittel,
+        lang, lang, kurz und lang."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/box_baketu
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter the size of the bubbles the clownfish are blowing on the aquarium wall
+        into the red treasure chest. There are downward-pointing arrows, so enter
+        them in order from top to bottom. The order is large, medium, medium, medium,
+        small, small.
+      - "\u6C34\u65CF\u9928\u306E\u58C1\u306E\u3001\u30AF\u30DE\u30CE\u30DF\u304C\u3075\u3044\u3066\u3044\u308B\u6CE1\u306E\u5927\u304D\u3055\u3092\u3001\u8D64\u3044\u5B9D\u7BB1\u306B\u5165\u529B\u3057\u3088\u3046\u3002\u4E0B\u5411\u304D\u306E\u77E2\u5370\u304C\u66F8\u3044\u3066\u3044\u308B\u306E\u3067\u3001\u4E0A\u304B\u3089\u9806\u756A\u306B\u5165\u529B\u3057\u3088\u3046\u3002\u5927\u3001\u4E2D\u3001\u4E2D\u3001\u4E2D\u3001\u5C0F\u3001\u5C0F\u306E\u9806\u756A\u3060\u3002"
+      - "\uC218\uC871\uAD00 \uBCBD\uC758 \uACF0 \uBCBC\uB8E9\uC774 \uB36E\uC5EC\uC788\uB294
+        \uAC70\uD488\uC758 \uD06C\uAE30\uB97C \uBE68\uAC04 \uBCF4\uBB3C \uC0C1\uC790\uC5D0
+        \uC785\uB825\uD569\uC2DC\uB2E4. \uC544\uB798\uCABD \uD654\uC0B4\uD45C\uAC00
+        \uC4F0\uC5EC \uC788\uC73C\uBBC0\uB85C \uC704\uC5D0\uC11C \uC21C\uC11C\uB300\uB85C
+        \uC785\uB825\uD558\uC790. \uB300, \uC911, \uC911, \uC911, \uC18C, \uC18C\uC758
+        \uC21C\uC11C\uB2E4."
+      - "\u8BF7\u5C06\u5C0F\u4E11\u9C7C\u5728\u9C7C\u7F38\u58C1\u4E0A\u5439\u51FA\u7684\u6C14\u6CE1\u5927\u5C0F\u8F93\u5165\u5230\u7EA2\u8272\u5B9D\u7BB1\u4E2D\u3002\u5C4F\u5E55\u4E0A\u6709\u5411\u4E0B\u7684\u7BAD\u5934\uFF0C\u8BF7\u6309\u4ECE\u4E0A\u5230\u4E0B\u7684\u987A\u5E8F\u8F93\u5165\u3002\u987A\u5E8F\u4E3A\uFF1A\u5927\u3001\u4E2D\u3001\u4E2D\u3001\u4E2D\u3001\u5C0F\u3001\u5C0F\u3002"
+      - "\u8ACB\u5C07\u5C0F\u4E11\u9B5A\u5728\u9B5A\u7F38\u58C1\u4E0A\u5439\u51FA\u7684\u6C23\u6CE1\u5927\u5C0F\u8F38\u5165\u7D05\u8272\u5BF6\u7BB1\u3002\u87A2\u5E55\u4E0A\u6709\u5411\u4E0B\u7684\u7BAD\u982D\uFF0C\u8ACB\u4F9D\u7167\u5F9E\u4E0A\u5230\u4E0B\u7684\u9806\u5E8F\u8F38\u5165\u3002\u9806\u5E8F\u70BA\uFF1A\u5927\u3001\u4E2D\u3001\u4E2D\u3001\u4E2D\u3001\u5C0F\u3001\u5C0F\u3002"
+      - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0440\u0430\u0437\u043C\u0435\u0440
+        \u043F\u0443\u0437\u044B\u0440\u044C\u043A\u043E\u0432, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0432\u044B\u0434\u0443\u0432\u0430\u044E\u0442 \u0440\u044B\u0431\u043A\u0438-\u043A\u043B\u043E\u0443\u043D\u044B
+        \u043D\u0430 \u0441\u0442\u0435\u043D\u043A\u0435 \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C\u0430,
+        \u0432 \u043A\u0440\u0430\u0441\u043D\u044B\u0439 \u0441\u0443\u043D\u0434\u0443\u043A
+        \u0441 \u0441\u043E\u043A\u0440\u043E\u0432\u0438\u0449\u0430\u043C\u0438.
+        \u0422\u0430\u043C \u0435\u0441\u0442\u044C \u0441\u0442\u0440\u0435\u043B\u043A\u0438,
+        \u0443\u043A\u0430\u0437\u044B\u0432\u0430\u044E\u0449\u0438\u0435 \u0432\u043D\u0438\u0437,
+        \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u0432\u0432\u043E\u0434\u0438\u0442\u0435
+        \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u044F \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435
+        \u0441\u0432\u0435\u0440\u0445\u0443 \u0432\u043D\u0438\u0437. \u041F\u043E\u0440\u044F\u0434\u043E\u043A
+        \u0442\u0430\u043A\u043E\u0439: \u0431\u043E\u043B\u044C\u0448\u043E\u0439,
+        \u0441\u0440\u0435\u0434\u043D\u0438\u0439, \u0441\u0440\u0435\u0434\u043D\u0438\u0439,
+        \u0441\u0440\u0435\u0434\u043D\u0438\u0439, \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439,
+        \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439."
+      - "Introduce el tama\xF1o de las burbujas que los peces payaso soplan en la
+        pared del acuario en el cofre rojo del tesoro. Hay flechas que apuntan hacia
+        abajo, as\xED que introd\xFAcelas en orden de arriba abajo. El orden es grande,
+        mediano, mediano, mediano, peque\xF1o, peque\xF1o."
+      - "Insira o tamanho das bolhas que o peixe-palha\xE7o est\xE1 soprando na parede
+        do aqu\xE1rio no ba\xFA do tesouro vermelho. H\xE1 setas apontando para baixo,
+        ent\xE3o insira os tamanhos na ordem de cima para baixo. A ordem \xE9: grande,
+        m\xE9dio, m\xE9dio, m\xE9dio, pequeno, pequeno."
+      - "Dans le coffre au tr\xE9sor rouge, indiquez la taille des bulles que les
+        poissons-clowns soufflent sur la paroi de l'aquarium. Des fl\xE8ches pointent
+        vers le bas\_; saisissez les valeurs de haut en bas\_: grandes, moyennes,
+        moyennes, moyennes, petites, petites."
+      - "Trage die Gr\xF6\xDFe der Blasen, die die Clownfische an die Aquarienwand
+        blasen, in die rote Schatztruhe ein. Die Pfeile zeigen nach unten; gib die
+        Werte der Reihe nach von oben nach unten ein: gro\xDF, mittel, mittel, mittel,
+        klein, klein."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/get_baketu_before
+      TermType: 0
+      Description: 
+      Languages:
+      - Get the bucket from the red treasure chest.
+      - "\u8D64\u3044\u5B9D\u7BB1\u304B\u3089\u30D0\u30B1\u30C4\u3092\u5165\u624B\u3057\u3088\u3046\u3002"
+      - "\uBE68\uAC04 \uBCF4\uBB3C \uC0C1\uC790\uC5D0\uC11C \uC591\uB3D9\uC774\uB97C
+        \uC5BB\uC73C\uC2ED\uC2DC\uC624."
+      - "\u4ECE\u7EA2\u8272\u5B9D\u7BB1\u91CC\u53D6\u51FA\u6C34\u6876\u3002"
+      - "\u5F9E\u7D05\u8272\u5BF6\u7BB1\u88E1\u53D6\u51FA\u6C34\u6876\u3002"
+      - "\u0414\u043E\u0441\u0442\u0430\u043D\u044C\u0442\u0435 \u0432\u0435\u0434\u0440\u043E
+        \u0438\u0437 \u043A\u0440\u0430\u0441\u043D\u043E\u0433\u043E \u0441\u0443\u043D\u0434\u0443\u043A\u0430
+        \u0441 \u0441\u043E\u043A\u0440\u043E\u0432\u0438\u0449\u0430\u043C\u0438."
+      - Coge el cubo del cofre del tesoro rojo.
+      - "Pegue o balde no ba\xFA do tesouro vermelho."
+      - "R\xE9cup\xE9rez le seau dans le coffre au tr\xE9sor rouge."
+      - Hol den Eimer aus der roten Schatztruhe.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/drag_okiami
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag the shrimp from the rocky area and drop it into the tank below the toilet
+        symbol from above.
+      - "\u5CA9\u5834\u306E\u4E0A\u306B\u3042\u308B\u30A8\u30D3\u3092\u30C9\u30E9\u30C3\u30B0\u3057\u3066\u3001\u30C8\u30A4\u30EC\u306E\u30DE\u30FC\u30AF\u306E\u4E0B\u306E\u6C34\u69FD\u306B\u3001\u4E0A\u90E8\u304B\u3089\u5165\u308C\u3066\u307F\u3088\u3046\u3002"
+      - "\uBC14\uC704\uBC2D \uC704\uC5D0 \uC788\uB294 \uC0C8\uC6B0\uB97C \uB4DC\uB798\uADF8\uD558\uC5EC
+        \uD654\uC7A5\uC2E4 \uB9C8\uD06C \uC544\uB798\uC758 \uC218\uC870\uC5D0 \uC0C1\uB2E8\uC5D0\uC11C
+        \uB123\uC5B4 \uBCF4\uC790."
+      - "\u5C06\u867E\u4ECE\u5CA9\u77F3\u533A\u62D6\u51FA\u6765\uFF0C\u4ECE\u4E0A\u65B9\u653E\u5165\u9A6C\u6876\u7B26\u53F7\u4E0B\u65B9\u7684\u6C34\u7BB1\u4E2D\u3002"
+      - "\u5C07\u8766\u5B50\u5F9E\u5CA9\u77F3\u5340\u62D6\u51FA\u4F86\uFF0C\u5F9E\u4E0A\u65B9\u653E\u5165\u99AC\u6876\u7B26\u865F\u4E0B\u65B9\u7684\u6C34\u7BB1\u3002"
+      - "\u041F\u0435\u0440\u0435\u0442\u0430\u0449\u0438\u0442\u0435 \u043A\u0440\u0435\u0432\u0435\u0442\u043A\u0443
+        \u0441 \u043A\u0430\u043C\u0435\u043D\u0438\u0441\u0442\u043E\u0439 \u0437\u043E\u043D\u044B
+        \u0438 \u043E\u043F\u0443\u0441\u0442\u0438\u0442\u0435 \u0435\u0451 \u0432
+        \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C, \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u043D\u044B\u0439
+        \u043F\u043E\u0434 \u0441\u0438\u043C\u0432\u043E\u043B\u043E\u043C \u0442\u0443\u0430\u043B\u0435\u0442\u0430,
+        \u043F\u043E\u043A\u0430\u0437\u0430\u043D\u043D\u044B\u043C \u0432\u044B\u0448\u0435."
+      - "Arrastra el camar\xF3n desde la zona rocosa y d\xE9jalo caer en el tanque
+        que se encuentra debajo del s\xEDmbolo del inodoro que est\xE1 arriba."
+      - "Arraste o camar\xE3o da \xE1rea rochosa e solte-o no tanque abaixo do s\xEDmbolo
+        do vaso sanit\xE1rio, visto de cima."
+      - "Faites glisser la crevette depuis la zone rocheuse et d\xE9posez-la dans
+        le r\xE9servoir situ\xE9 sous le symbole des toilettes, vu du dessus."
+      - Ziehen Sie die Garnele aus dem felsigen Bereich und lassen Sie sie von oben
+        in den Tank unterhalb des Toilettensymbols fallen.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/use_baketu_before
+      TermType: 0
+      Description: 
+      Languages:
+      - Let's catch the fish in the aquarium with a bucket.
+      - "\u6C34\u69FD\u306B\u3044\u308B\u9B5A\u3092\u30D0\u30B1\u30C4\u3067\u6355\u307E\u3048\u3088\u3046\u3002"
+      - "\uC218\uC871\uAD00\uC5D0\uC788\uB294 \uBB3C\uACE0\uAE30\uB97C \uC591\uB3D9\uC774\uB85C
+        \uC7A1\uC73C\uC2ED\uC2DC\uC624."
+      - "\u6211\u4EEC\u7528\u6876\u6765\u6349\u9C7C\u7F38\u91CC\u7684\u9C7C\u5427\u3002"
+      - "\u6211\u5011\u7528\u6876\u5B50\u4F86\u6293\u9B5A\u7F38\u88E1\u7684\u9B5A\u5427\u3002"
+      - "\u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u043F\u043E\u0439\u043C\u0430\u0435\u043C
+        \u0440\u044B\u0431\u043E\u043A \u0432 \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C\u0435
+        \u0432\u0435\u0434\u0440\u043E\u043C."
+      - Vamos a pescar los peces del acuario con un cubo.
+      - "Vamos pegar os peixes do aqu\xE1rio com um balde."
+      - Attrapons les poissons de l'aquarium avec un seau.
+      - Lass uns die Fische im Aquarium mit einem Eimer fangen.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/use_baketu_after
+      TermType: 0
+      Description: 
+      Languages:
+      - Hand the fish in the bucket to the zookeeper on the rocky shore.
+      - "\u30D0\u30B1\u30C4\u306B\u5165\u3063\u305F\u9B5A\u3092\u5CA9\u5834\u306B\u3044\u308B\u98FC\u80B2\u54E1\u306B\u6E21\u305D\u3046\u3002"
+      - "\uC591\uB3D9\uC774\uC5D0 \uB4E4\uC5B4\uAC04 \uBB3C\uACE0\uAE30\uB97C \uBC14\uC704\uC5D0
+        \uC788\uB294 \uC0AC\uC721\uC6D0\uC5D0\uAC8C \uAC74\uB124\uC8FC\uC790."
+      - "\u628A\u6876\u91CC\u7684\u9C7C\u4EA4\u7ED9\u5CA9\u77F3\u5CB8\u8FB9\u7684\u52A8\u7269\u56ED\u7BA1\u7406\u5458\u3002"
+      - "\u628A\u6876\u5B50\u88E1\u7684\u9B5A\u4EA4\u7D66\u5CA9\u77F3\u5CB8\u908A\u7684\u52D5\u7269\u5712\u7BA1\u7406\u54E1\u3002"
+      - "\u041F\u0435\u0440\u0435\u0434\u0430\u0439\u0442\u0435 \u0440\u044B\u0431\u043E\u043A
+        \u0432 \u0432\u0435\u0434\u0440\u0435 \u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435\u043B\u044E
+        \u0437\u043E\u043E\u043F\u0430\u0440\u043A\u0430 \u043D\u0430 \u0441\u043A\u0430\u043B\u0438\u0441\u0442\u043E\u043C
+        \u0431\u0435\u0440\u0435\u0433\u0443."
+      - "Entrega el pescado que est\xE1 en el cubo al cuidador del zool\xF3gico que
+        se encuentra en la orilla rocosa."
+      - "Entregue o peixe no balde ao tratador do zool\xF3gico na margem rochosa."
+      - Remettez le poisson du seau au gardien du zoo sur la rive rocheuse.
+      - Gib dem Tierpfleger am felsigen Ufer die Fische im Eimer.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/open_kurageRoom
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter the penguin size into the door on the right side of the screen inside
+        the aquarium. From left to right, they are large, medium, small, large, medium,
+        and large.
+      - "\u30DA\u30F3\u30AE\u30F3\u306E\u5927\u304D\u3055\u3092\u6C34\u65CF\u9928\u306E\u4E2D\u306E\u53F3\u306E\u753B\u9762\u306E\u6249\u306B\u5165\u529B\u3057\u3088\u3046\u3002\u5DE6\u304B\u3089\u5927\u3001\u4E2D\u3001\u5C0F\u3001\u5927\u3001\u4E2D\u3001\u5927\u3060\u3002"
+      - "\uD3AD\uADC4\uC758 \uD06C\uAE30\uB97C \uC218\uC871\uAD00 \uC548\uC758 \uC624\uB978\uCABD
+        \uD654\uBA74\uC758 \uBB38\uC5D0 \uC785\uB825\uD558\uC790. \uC67C\uCABD\uC5D0\uC11C
+        \uB300, \uC911, \uC18C, \uB300, \uC911, \uB300\uB2E4."
+      - "\u5728\u6C34\u65CF\u7BB1\u5185\u5C4F\u5E55\u53F3\u4FA7\u7684\u95E8\u4E0A\u8F93\u5165\u4F01\u9E45\u7684\u5C3A\u5BF8\u3002\u4ECE\u5DE6\u5230\u53F3\u4F9D\u6B21\u662F\uFF1A\u5927\u3001\u4E2D\u3001\u5C0F\u3001\u5927\u3001\u4E2D\u3001\u5927\u3002"
+      - "\u5728\u6C34\u65CF\u7BB1\u5167\u87A2\u5E55\u53F3\u5074\u7684\u9580\u4E0A\u8F38\u5165\u4F01\u9D5D\u7684\u5C3A\u5BF8\u3002\u7531\u5DE6\u81F3\u53F3\u4F9D\u5E8F\u662F\uFF1A\u5927\u3001\u4E2D\u3001\u5C0F\u3001\u5927\u3001\u4E2D\u3001\u5927\u3002"
+      - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0440\u0430\u0437\u043C\u0435\u0440
+        \u043F\u0438\u043D\u0433\u0432\u0438\u043D\u0430 \u0432 \u043F\u043E\u043B\u0435
+        \u0441\u043F\u0440\u0430\u0432\u0430 \u043D\u0430 \u044D\u043A\u0440\u0430\u043D\u0435
+        \u0432\u043D\u0443\u0442\u0440\u0438 \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C\u0430.
+        \u0421\u043B\u0435\u0432\u0430 \u043D\u0430\u043F\u0440\u0430\u0432\u043E:
+        \u0431\u043E\u043B\u044C\u0448\u043E\u0439, \u0441\u0440\u0435\u0434\u043D\u0438\u0439,
+        \u043C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439, \u0431\u043E\u043B\u044C\u0448\u043E\u0439,
+        \u0441\u0440\u0435\u0434\u043D\u0438\u0439 \u0438 \u0431\u043E\u043B\u044C\u0448\u043E\u0439."
+      - "Introduce el tama\xF1o del ping\xFCino en la puerta del lado derecho de
+        la pantalla dentro del acuario. De izquierda a derecha, son grande, mediano,
+        peque\xF1o, grande, mediano y grande."
+      - "Insira o tamanho do pinguim na porta do lado direito da tela, dentro do
+        aqu\xE1rio. Da esquerda para a direita, eles s\xE3o: grande, m\xE9dio, pequeno,
+        grande, m\xE9dio e grande."
+      - "Saisissez la taille du pingouin dans l'\xE9cran situ\xE9 \xE0 droite de
+        l'aquarium. De gauche \xE0 droite\_: grand, moyen, petit, grand, moyen et
+        grand."
+      - "Geben Sie die Pinguingr\xF6\xDFe in das Feld rechts auf dem Bildschirm im
+        Aquarium ein. Von links nach rechts sind sie gro\xDF, mittel, klein, gro\xDF,
+        mittel und gro\xDF."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/box_tokei
+      TermType: 0
+      Description: 
+      Languages:
+      - The jellyfish are glowing in the dark room, so input the number of glowing
+        jellyfish into the cloth above the zookeeper in order. Press the buttons
+        in the order of 1, 3, 2, 3, 4, 4.
+      - "\u6697\u3044\u90E8\u5C4B\u3067\u30AF\u30E9\u30B2\u304C\u5149\u3063\u3066\u3044\u308B\u306E\u3067\u3001\u4F55\u5339\u5149\u3063\u305F\u306E\u304B\u3092\u3001\u9806\u756A\u306B\u98FC\u80B2\u54E1\u306E\u4E0A\u306B\u3042\u308B\u5E03\u306B\u5165\u529B\u3057\u3088\u3046\u3002\uFF11\uFF0C\uFF13\uFF0C\uFF12\uFF0C\uFF13\uFF0C\uFF14\uFF0C\uFF14\u306E\u9806\u756A\u3067\u30DC\u30BF\u30F3\u3092\u62BC\u305D\u3046\u3002"
+      - "\uC5B4\uB450\uC6B4 \uBC29\uC5D0\uC11C \uD574\uD30C\uB9AC\uAC00 \uBE5B\uB098\uACE0
+        \uC788\uC73C\uBBC0\uB85C, \uBA87 \uB9C8\uB9AC \uBE5B\uB0AC\uB294\uC9C0\uB97C,
+        \uCC28\uB840\uB85C \uC0AC\uC721\uC6D0 \uC704\uC5D0 \uC788\uB294 \uCC9C\uC5D0
+        \uC785\uB825\uD558\uC790. 1, 3, 2, 3, 4, 4\uC758 \uC21C\uC11C\uB85C \uBC84\uD2BC\uC744
+        \uB204\uB974\uC790."
+      - "\u9ED1\u6697\u7684\u623F\u95F4\u91CC\u6C34\u6BCD\u4F1A\u53D1\u5149\uFF0C\u8BF7\u6309\u987A\u5E8F\u5C06\u53D1\u5149\u6C34\u6BCD\u7684\u6570\u91CF\u586B\u5165\u9972\u517B\u5458\u4E0A\u65B9\u7684\u5E03\u6599\u4E2D\u3002\u8BF7\u6309
+        1\u30013\u30012\u30013\u30014\u30014 \u7684\u987A\u5E8F\u6309\u4E0B\u6309\u94AE\u3002"
+      - "\u9ED1\u6697\u7684\u623F\u9593\u88E1\u6C34\u6BCD\u6703\u767C\u5149\uFF0C\u8ACB\u4F9D\u5E8F\u5C07\u767C\u5149\u6C34\u6BCD\u7684\u6578\u91CF\u586B\u5165\u98FC\u990A\u54E1\u4E0A\u65B9\u7684\u5E03\u6599\u4E2D\u3002\u8ACB\u4F9D
+        1\u30013\u30012\u30013\u30014\u30014 \u7684\u9806\u5E8F\u6309\u4E0B\u6309\u9215\u3002"
+      - "\u041C\u0435\u0434\u0443\u0437\u044B \u0441\u0432\u0435\u0442\u044F\u0442\u0441\u044F
+        \u0432 \u0442\u0435\u043C\u043D\u043E\u0439 \u043A\u043E\u043C\u043D\u0430\u0442\u0435,
+        \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u0432\u0432\u0435\u0434\u0438\u0442\u0435
+        \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0441\u0432\u0435\u0442\u044F\u0449\u0438\u0445\u0441\u044F
+        \u043C\u0435\u0434\u0443\u0437 \u043D\u0430 \u0442\u043A\u0430\u043D\u0438
+        \u043D\u0430\u0434 \u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435\u043B\u0435\u043C
+        \u0437\u043E\u043E\u043F\u0430\u0440\u043A\u0430 \u0432 \u0443\u043A\u0430\u0437\u0430\u043D\u043D\u043E\u043C
+        \u043F\u043E\u0440\u044F\u0434\u043A\u0435. \u041D\u0430\u0436\u0438\u043C\u0430\u0439\u0442\u0435
+        \u043A\u043D\u043E\u043F\u043A\u0438 \u0432 \u043F\u043E\u0440\u044F\u0434\u043A\u0435
+        1, 3, 2, 3, 4, 4."
+      - "Las medusas brillan en la oscuridad, as\xED que introduce la cantidad de
+        medusas brillantes en la tela que est\xE1 encima del cuidador, en orden.
+        Pulsa los botones en el orden 1, 3, 2, 3, 4, 4."
+      - "As \xE1guas-vivas est\xE3o brilhando no quarto escuro, ent\xE3o insira o
+        n\xFAmero de \xE1guas-vivas brilhantes no pano acima do tratador em ordem.
+        Pressione os bot\xF5es na ordem 1, 3, 2, 3, 4, 4."
+      - "Les m\xE9duses brillent dans l'obscurit\xE9\_; inscrivez le nombre de m\xE9duses
+        lumineuses sur le tissu au-dessus du gardien, dans l'ordre. Appuyez sur les
+        boutons dans l'ordre\_: 1, 3, 2, 3, 4, 4."
+      - "Die Quallen leuchten im dunklen Raum. Trage die Anzahl der leuchtenden Quallen
+        der Reihe nach in das Tuch \xFCber dem Tierpfleger ein. Dr\xFCcke die Kn\xF6pfe
+        in der Reihenfolge 1, 3, 2, 3, 4, 4."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/gimmick_time
+      TermType: 0
+      Description: 
+      Languages:
+      - Try persistently asking the receptionist outside. They'll tell you when the
+        whale sharks are being fed. It seems to be at 13:25, so enter 13:25 into
+        your clock.
+      - "\u5916\u306E\u53D7\u4ED8\u306B\u3057\u3064\u3053\u304F\u8A71\u3092\u805E\u3044\u3066\u307F\u3088\u3046\u3002\u30B8\u30F3\u30D9\u30A4\u30B6\u30E1\u306E\u30A8\u30B5\u3084\u308A\u306E\u6642\u9593\u3092\u6559\u3048\u3066\u304F\u308C\u308B\u3088\u3002\uFF11\uFF13\uFF1A\uFF12\uFF15\u3089\u3057\u3044\u306E\u3067\u3001\u6642\u8A08\u306B\uFF11\uFF13\uFF1A\uFF12\uFF15\u3068\u5165\u529B\u3057\u3088\u3046\u3002"
+      - "\uC678\uBD80 \uC811\uC218\uC5D0 \uB048\uC9C8\uAE34 \uC774\uC57C\uAE30\uB97C
+        \uB4E4\uC5B4\uBCF4\uC790. \uACE0\uB798\uC0C1\uC5B4\uC758 \uBA39\uC774\uB97C
+        \uC8FC\uB294 \uC2DC\uAC04\uC744 \uAC00\uB974\uCCD0 \uC904\uAC8C. 13:25\uC778
+        \uAC83 \uAC19\uC544\uC11C, \uC2DC\uACC4\uC5D0 13:25\uB77C\uACE0 \uC785\uB825\uD558\uC790."
+      - "\u8BD5\u7740\u53CD\u590D\u8BE2\u95EE\u5916\u9762\u7684\u524D\u53F0\u63A5\u5F85\u5458\u3002\u4ED6\u4EEC\u4F1A\u544A\u8BC9\u4F60\u9CB8\u9CA8\u7684\u5582\u98DF\u65F6\u95F4\u3002\u597D\u50CF\u662F13:25\uFF0C\u6240\u4EE5\u628A13:25\u8BB0\u5230\u4F60\u7684\u65F6\u949F\u91CC\u3002"
+      - "\u8A66\u8457\u53CD\u8986\u8A62\u554F\u5916\u9762\u7684\u524D\u53F0\u63A5\u5F85\u54E1\u3002\u4ED6\u5011\u6703\u544A\u8A34\u4F60\u9BE8\u9BCA\u7684\u9935\u98DF\u6642\u9593\u3002\u597D\u50CF\u662F13:25\uFF0C\u6240\u4EE5\u628A13:25\u8A18\u5230\u4F60\u7684\u6642\u9418\u3002"
+      - "\u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u043D\u0430\u0441\u0442\u043E\u0439\u0447\u0438\u0432\u043E
+        \u0441\u043F\u0440\u043E\u0441\u0438\u0442\u044C \u0443 \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u0430
+        \u043D\u0430 \u0440\u0435\u0441\u0435\u043F\u0448\u0435\u043D\u0435. \u041E\u043D
+        \u0432\u0430\u043C \u0441\u043A\u0430\u0436\u0435\u0442, \u043A\u043E\u0433\u0434\u0430
+        \u043A\u043E\u0440\u043C\u044F\u0442 \u043A\u0438\u0442\u043E\u0432\u044B\u0445
+        \u0430\u043A\u0443\u043B. \u041F\u043E\u0445\u043E\u0436\u0435, \u044D\u0442\u043E
+        \u0432 13:25, \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u0432\u0432\u0435\u0434\u0438\u0442\u0435
+        13:25 \u0432 \u0441\u0432\u043E\u0438 \u0447\u0430\u0441\u044B."
+      - "Insiste en preguntarle a la recepcionista de afuera. Te dir\xE1n cu\xE1ndo
+        alimentan a los tiburones ballena. Parece ser a las 13:25, as\xED que introduce
+        las 13:25 en tu reloj."
+      - "Insista e pergunte \xE0 recepcionista do lado de fora. Ela lhe dir\xE1 quando
+        os tubar\xF5es-baleia s\xE3o alimentados. Parece ser \xE0s 13h25, ent\xE3o
+        marque 13h25 no seu rel\xF3gio."
+      - "N'h\xE9sitez pas \xE0 demander \xE0 la r\xE9ceptionniste \xE0 l'ext\xE9rieur.
+        Elle vous indiquera l'heure du nourrissage des requins-baleines. Il semble
+        que ce soit \xE0 13h25, alors notez 13h25 dans votre montre."
+      - "Fragen Sie ruhig immer wieder an der Rezeption nach. Dort kann man Ihnen
+        sagen, wann die Walhaie gef\xFCttert werden. Es scheint um 13:25 Uhr zu sein,
+        also tragen Sie 13:25 Uhr in Ihre Uhr ein."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/box_switch
+      TermType: 0
+      Description: 
+      Languages:
+      - You can zoom in by tapping on the whale shark. There are arrows drawn on
+        its pattern, so input how you are moving in the direction of the arrows into
+        the green panel in the jellyfish room. The order is diagonally up right,
+        diagonally up right, right, diagonally down left, diagonally down right,
+        left.
+      - "\u30B8\u30F3\u30D9\u30A4\u30B6\u30E1\u3092\u30BF\u30C3\u30D7\u3059\u308B\u3068\u30BA\u30FC\u30E0\u3067\u304D\u308B\u3088\u3002\u6A21\u69D8\u306B\u77E2\u5370\u304C\u3072\u304B\u308C\u3066\u3044\u308B\u306E\u3067\u3001\u77E2\u5370\u306E\u65B9\u5411\u306B\u3069\u306E\u3088\u3046\u306B\u9032\u3093\u3067\u3044\u308B\u304B\u3092\u3001\u30AF\u30E9\u30B2\u306E\u90E8\u5C4B\u306E\u7DD1\u306E\u30D1\u30CD\u30EB\u306B\u5165\u529B\u3057\u3088\u3046\u3002\u53F3\u659C\u3081\u4E0A\u3001\u53F3\u659C\u3081\u4E0A\u3001\u53F3\u3001\u5DE6\u659C\u3081\u4E0B\u3001\u53F3\u659C\u3081\u4E0B\u3001\u5DE6\u306E\u9806\u756A\u3060\u3002"
+      - "\uACE0\uB798 \uC0C1\uC5B4\uB97C \uD0ED\uD558\uBA74 \uD655\uB300 \uD560 \uC218
+        \uC788\uC2B5\uB2C8\uB2E4. \uD328\uD134\uC5D0 \uD654\uC0B4\uD45C\uAC00 \uB04C\uB824
+        \uC788\uAE30 \uB54C\uBB38\uC5D0 \uD654\uC0B4\uD45C \uBC29\uD5A5\uC73C\uB85C
+        \uC5B4\uB5BB\uAC8C \uC9C4\uD589\uD558\uACE0 \uC788\uB294\uC9C0\uB97C \uD574\uD30C\uB9AC
+        \uBC29\uC758 \uB179\uC0C9 \uD328\uB110\uC5D0 \uC785\uB825\uD558\uC790. \uC624\uB978\uCABD
+        \uB300\uAC01\uC120 \uC704, \uC624\uB978\uCABD \uB300\uAC01\uC120 \uC704,
+        \uC624\uB978\uCABD, \uC67C\uCABD \uB300\uAC01\uC120 \uC544\uB798, \uC624\uB978\uCABD
+        \uB300\uAC01\uC120 \uC544\uB798, \uC67C\uCABD \uC21C\uC11C\uC785\uB2C8\uB2E4."
+      - "\u70B9\u51FB\u9CB8\u9CA8\u5373\u53EF\u653E\u5927\u3002\u5B83\u7684\u56FE\u6848\u4E0A\u6709\u7BAD\u5934\uFF0C\u8BF7\u5728\u6C34\u6BCD\u623F\u95F4\u7684\u7EFF\u8272\u9762\u677F\u4E2D\u8F93\u5165\u4F60\u6CBF\u7740\u7BAD\u5934\u65B9\u5411\u79FB\u52A8\u7684\u8DEF\u7EBF\u3002\u987A\u5E8F\u4E3A\uFF1A\u53F3\u4E0A\u659C\u89D2\u3001\u53F3\u4E0A\u659C\u89D2\u3001\u53F3\u3001\u5DE6\u4E0B\u659C\u89D2\u3001\u53F3\u4E0B\u659C\u89D2\u3001\u5DE6\u3002"
+      - "\u9EDE\u64CA\u9BE8\u9BCA\u5373\u53EF\u653E\u5927\u3002\u5B83\u7684\u5716\u6848\u4E0A\u6709\u7BAD\u982D\uFF0C\u8ACB\u5728\u6C34\u6BCD\u623F\u9593\u7684\u7DA0\u8272\u9762\u677F\u4E2D\u8F38\u5165\u4F60\u6CBF\u8457\u7BAD\u982D\u65B9\u5411\u79FB\u52D5\u7684\u8DEF\u7DDA\u3002\u9806\u5E8F\u70BA\uFF1A\u53F3\u4E0A\u659C\u89D2\u3001\u53F3\u4E0A\u659C\u89D2\u3001\u53F3\u3001\u5DE6\u4E0B\u659C\u89D2\u3001\u53F3\u4E0B\u659C\u89D2\u3001\u5DE6\u3002"
+      - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435
+        \u043C\u043E\u0436\u043D\u043E, \u043D\u0430\u0436\u0430\u0432 \u043D\u0430
+        \u043A\u0438\u0442\u043E\u0432\u0443\u044E \u0430\u043A\u0443\u043B\u0443.
+        \u041D\u0430 \u043D\u0435\u0439 \u043D\u0430\u0440\u0438\u0441\u043E\u0432\u0430\u043D\u044B
+        \u0441\u0442\u0440\u0435\u043B\u043A\u0438, \u043F\u043E\u044D\u0442\u043E\u043C\u0443
+        \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435
+        \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F \u0432 \u0437\u0435\u043B\u0435\u043D\u043E\u0439
+        \u043F\u0430\u043D\u0435\u043B\u0438 \u0432 \u043A\u043E\u043C\u043D\u0430\u0442\u0435
+        \u0441 \u043C\u0435\u0434\u0443\u0437\u0430\u043C\u0438. \u041F\u043E\u0440\u044F\u0434\u043E\u043A
+        \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439: \u043F\u043E \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438
+        \u0432\u0432\u0435\u0440\u0445 \u0432\u043F\u0440\u0430\u0432\u043E, \u043F\u043E
+        \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0432\u0432\u0435\u0440\u0445
+        \u0432\u043F\u0440\u0430\u0432\u043E, \u0432\u043F\u0440\u0430\u0432\u043E,
+        \u043F\u043E \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438 \u0432\u043D\u0438\u0437
+        \u0432\u043B\u0435\u0432\u043E, \u043F\u043E \u0434\u0438\u0430\u0433\u043E\u043D\u0430\u043B\u0438
+        \u0432\u043D\u0438\u0437 \u0432\u043F\u0440\u0430\u0432\u043E, \u0432\u043B\u0435\u0432\u043E."
+      - "Puedes hacer zoom tocando el tibur\xF3n ballena. Hay flechas dibujadas en
+        su patr\xF3n; introduce tu direcci\xF3n de movimiento en el panel verde de
+        la sala de las medusas. El orden es: diagonal arriba a la derecha, diagonal
+        arriba a la derecha, derecha, diagonal abajo a la izquierda, diagonal abajo
+        a la derecha, izquierda."
+      - "Voc\xEA pode ampliar a imagem tocando no tubar\xE3o-baleia. H\xE1 setas
+        desenhadas em seu padr\xE3o; portanto, insira a dire\xE7\xE3o do seu movimento
+        no painel verde na sala das \xE1guas-vivas, seguindo as setas. A ordem \xE9
+        diagonalmente para cima \xE0 direita, diagonalmente para cima \xE0 direita,
+        direita, diagonalmente para baixo \xE0 esquerda, diagonalmente para baixo
+        \xE0 direita, esquerda."
+      - "Vous pouvez zoomer en touchant le requin-baleine. Des fl\xE8ches sont dessin\xE9es
+        sur son motif\_; indiquez votre d\xE9placement dans le sens de ces fl\xE8ches
+        en les saisissant dans le panneau vert de la salle des m\xE9duses. L\u2019ordre
+        est le suivant\_: diagonale haut droite, diagonale haut droite, droite, diagonale
+        bas gauche, diagonale bas droite, gauche."
+      - "Du kannst hineinzoomen, indem du auf den Walhai tippst. Auf seinem Muster
+        sind Pfeile eingezeichnet. Gib deine Bewegungsrichtung in das gr\xFCne Feld
+        im Quallenraum ein. Die Reihenfolge ist: diagonal oben rechts, diagonal oben
+        rechts, rechts, diagonal unten links, diagonal unten rechts, links."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_answer/ending
+      TermType: 0
+      Description: 
+      Languages:
+      - Press the yellow button in the jellyfish room.
+      - "\u6D77\u6708\u306E\u90E8\u5C4B\u306E\u9EC4\u8272\u3044\u30DC\u30BF\u30F3\u3092\u62BC\u305D\u3046\u3002"
+      - "\uCE74\uC774\uC988\uD0A4 \uBC29\uC758 \uB178\uB780\uC0C9 \uBC84\uD2BC\uC744
+        \uB204\uB974\uC790."
+      - "\u5728\u6C34\u6BCD\u623F\u95F4\u91CC\u6309\u4E0B\u9EC4\u8272\u6309\u94AE\u3002"
+      - "\u5728\u6C34\u6BCD\u623F\u9593\u88E1\u6309\u4E0B\u9EC3\u8272\u6309\u9215\u3002"
+      - "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u0436\u0451\u043B\u0442\u0443\u044E
+        \u043A\u043D\u043E\u043F\u043A\u0443 \u0432 \u043A\u043E\u043C\u043D\u0430\u0442\u0435
+        \u0441 \u043C\u0435\u0434\u0443\u0437\u0430\u043C\u0438."
+      - "Pulsa el bot\xF3n amarillo en la sala de las medusas."
+      - "Pressione o bot\xE3o amarelo na sala das \xE1guas-vivas."
+      - "Appuyez sur le bouton jaune dans la salle des m\xE9duses."
+      - "Dr\xFCcke den gelben Knopf im Quallenraum."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/opening
+      TermType: 0
+      Description: 
+      Languages:
+      - blank
+      - blank
+      - blank
+      - "\u7A7A\u767D\u7684"
+      - "\u7A7A\u767D\u7684"
+      - "\u043F\u0443\u0441\u0442\u043E\u0439"
+      - blanco
+      - em branco
+      - vide
+      - leer
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/open_shutter
+      TermType: 0
+      Description: 
+      Languages:
+      - Take a look at the walls of the aquarium.
+      - "\u6C34\u65CF\u9928\u306E\u58C1\u306B\u6CE8\u76EE\u3057\u3088\u3046\u3002"
+      - "\uC218\uC871\uAD00\uC758 \uBCBD\uC5D0 \uC8FC\uBAA9\uD558\uC790."
+      - "\u770B\u770B\u6C34\u65CF\u7BB1\u7684\u58C1\u3002"
+      - "\u770B\u770B\u6C34\u65CF\u7BB1\u7684\u58C1\u3002"
+      - "\u0412\u0437\u0433\u043B\u044F\u043D\u0438\u0442\u0435 \u043D\u0430 \u0441\u0442\u0435\u043D\u043A\u0438
+        \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C\u0430."
+      - Echa un vistazo a las paredes del acuario.
+      - "Observe as paredes do aqu\xE1rio."
+      - Regardez les parois de l'aquarium.
+      - "Schau dir die W\xE4nde des Aquariums an."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/box_haburashi
+      TermType: 0
+      Description: 
+      Languages:
+      - The starfish looks suspicious.
+      - "\u30D2\u30C8\u30C7\u304C\u602A\u3057\u3044\u3002"
+      - "\uBD88\uAC00\uC0AC\uB9AC\uAC00 \uC218\uC0C1\uD558\uB2E4."
+      - "\u8FD9\u53EA\u6D77\u661F\u770B\u8D77\u6765\u5F88\u53EF\u7591\u3002"
+      - "\u9019\u96BB\u6D77\u661F\u770B\u8D77\u4F86\u5F88\u53EF\u7591\u3002"
+      - "\u041C\u043E\u0440\u0441\u043A\u0430\u044F \u0437\u0432\u0435\u0437\u0434\u0430
+        \u0432\u044B\u0433\u043B\u044F\u0434\u0438\u0442 \u043F\u043E\u0434\u043E\u0437\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u043E."
+      - La estrella de mar parece sospechosa.
+      - A estrela-do-mar parece suspeita.
+      - "L'\xE9toile de mer a l'air suspecte."
+      - "Der Seestern sieht verd\xE4chtig aus."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/get_haburashi
+      TermType: 0
+      Description: 
+      Languages:
+      - blank
+      - blank
+      - blank
+      - "\u7A7A\u767D\u7684"
+      - "\u7A7A\u767D\u7684"
+      - "\u043F\u0443\u0441\u0442\u043E\u0439"
+      - blanco
+      - em branco
+      - vide
+      - leer
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/use_haburashi
+      TermType: 0
+      Description: 
+      Languages:
+      - What comes to mind when you think of creatures with teeth?
+      - "\u6B6F\u306E\u3042\u308B\u751F\u304D\u7269\u3068\u3044\u3048\u3070\uFF1F\uFF1F"
+      - "\uCE58\uC544\uC788\uB294 \uC0DD\uBB3C\uC774\uB77C\uACE0\uD558\uBA74? ?"
+      - "\u63D0\u5230\u6709\u7259\u9F7F\u7684\u751F\u7269\uFF0C\u4F60\u4F1A\u60F3\u5230\u4EC0\u4E48\uFF1F"
+      - "\u63D0\u5230\u6709\u7259\u9F52\u7684\u751F\u7269\uFF0C\u4F60\u6703\u60F3\u5230\u4EC0\u9EBC\uFF1F"
+      - "\u0427\u0442\u043E \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442 \u0432\u0430\u043C
+        \u043D\u0430 \u0443\u043C, \u043A\u043E\u0433\u0434\u0430 \u0432\u044B \u0434\u0443\u043C\u0430\u0435\u0442\u0435
+        \u043E \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430\u0445 \u0441 \u0437\u0443\u0431\u0430\u043C\u0438?"
+      - "\xBFQu\xE9 te viene a la mente cuando piensas en criaturas con dientes?"
+      - "O que lhe vem \xE0 mente quando pensa em criaturas com dentes?"
+      - "\xC0 quoi pensez-vous quand vous pensez \xE0 des cr\xE9atures qui ont des
+        dents ?"
+      - "Was kommt Ihnen in den Sinn, wenn Sie an Lebewesen mit Z\xE4hnen denken?"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/use_sissors
+      TermType: 0
+      Description: 
+      Languages:
+      - There's a pufferfish. I want one of the pufferfish's spines.
+      - "\u30CF\u30EA\u30BB\u30F3\u30DC\u30F3\u304C\u3044\u308B\u306D\u3002\u30CF\u30EA\u30BB\u30F3\u30DC\u30F3\u306E\u30CF\u30EA\u304C\u6B32\u3057\u3044\u306A\u3002"
+      - "\uD574\uB9AC \uC13C\uBCF8\uC774 \uC788\uC2B5\uB2C8\uB2E4. \uD574\uB9AC \uC13C\uBD09\uC758
+        \uD0C4\uB825\uC744 \uC6D0\uD574."
+      - "\u8FD9\u91CC\u6709\u4E00\u6761\u6CB3\u8C5A\u3002\u6211\u60F3\u8981\u4E00\u6839\u6CB3\u8C5A\u7684\u80CC\u9CCD\u523A\u3002"
+      - "\u9019\u88E1\u6709\u4E00\u689D\u6CB3\u8C5A\u3002\u6211\u60F3\u8981\u4E00\u6839\u6CB3\u8C5A\u7684\u80CC\u9C2D\u523A\u3002"
+      - "\u0422\u0430\u043C \u0435\u0441\u0442\u044C \u0440\u044B\u0431\u0430-\u0444\u0443\u0433\u0443.
+        \u041C\u043D\u0435 \u043D\u0443\u0436\u0435\u043D \u043E\u0434\u0438\u043D
+        \u0438\u0437 \u0435\u0451 \u0448\u0438\u043F\u043E\u0432."
+      - Hay un pez globo. Quiero una de las espinas del pez globo.
+      - Tem um baiacu ali. Eu quero um dos espinhos do baiacu.
+      - "Il y a un poisson-globe. Je veux une de ses \xE9pines."
+      - "Da ist ein Kugelfisch. Ich m\xF6chte einen der Stacheln des Kugelfisches
+        haben."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/use_hari_01
+      TermType: 0
+      Description: 
+      Languages:
+      - Someone's sleeping. I wonder if I can pop their snot bubble with something?
+      - "\u5BDD\u3066\u3044\u308B\u4EBA\u304C\u3044\u308B\u306D\u3002\u9F3B\u63D0\u706F\u3092\u4F55\u304B\u3067\u5272\u308C\u306A\u3044\u304B\u306A\uFF1F"
+      - "\uC790\uACE0\uC788\uB294 \uC0AC\uB78C\uC774 \uC788\uC2B5\uB2C8\uB2E4. \uCF54
+        \uB4F1\uBD88\uC744 \uBB54\uAC00\uB85C \uAE68\uC9C0 \uC54A\uC744\uAE4C?"
+      - "\u6709\u4EBA\u7761\u7740\u4E86\u3002\u4E0D\u77E5\u9053\u6211\u80FD\u4E0D\u80FD\u7528\u4EC0\u4E48\u4E1C\u897F\u6233\u7834\u4ED6\u7684\u9F3B\u6D95\u6CE1\uFF1F"
+      - "\u6709\u4EBA\u7761\u8457\u4E86\u3002\u4E0D\u77E5\u9053\u6211\u80FD\u4E0D\u80FD\u7528\u4EC0\u9EBC\u6771\u897F\u6233\u7834\u4ED6\u7684\u9F3B\u6D95\u6CE1\uFF1F"
+      - "\u041A\u0442\u043E-\u0442\u043E \u0441\u043F\u0438\u0442. \u0418\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E,
+        \u043C\u043E\u0436\u043D\u043E \u043B\u0438 \u0447\u0435\u043C-\u043D\u0438\u0431\u0443\u0434\u044C
+        \u043B\u043E\u043F\u043D\u0443\u0442\u044C \u0443 \u043D\u0435\u0433\u043E
+        \u0441\u043E\u043F\u043B\u0438?"
+      - "Alguien est\xE1 durmiendo. Me pregunto si podr\xE9 reventarle la burbuja
+        de mocos con algo."
+      - "Tem algu\xE9m dormindo. Ser\xE1 que consigo estourar a bolha de catarro
+        dessa pessoa com alguma coisa?"
+      - "Quelqu'un dort. Je me demande si je pourrais faire \xE9clater sa bulle de
+        morve avec quelque chose ?"
+      - "Da schl\xE4ft jemand. Ob ich wohl die Rotzblase mit irgendetwas zum Platzen
+        bringen kann?"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/use_hari_02
+      TermType: 0
+      Description: 
+      Languages:
+      - There's something that looks like it could break with a pin.
+      - "\u30CF\u30EA\u3067\u5272\u308C\u305D\u3046\u306A\u3082\u306E\u304C\u3042\u308B\u3088\u3002"
+      - "\uD0C4\uB825\uC73C\uB85C \uAE68\uC9C8 \uAC83 \uAC19\uC740 \uAC83\uC774 \uC788\uC5B4."
+      - "\u6709\u4EC0\u4E48\u4E1C\u897F\u770B\u8D77\u6765\u53EF\u4EE5\u7528\u522B\u9488\u6233\u65AD\u3002"
+      - "\u6709\u6771\u897F\u770B\u8D77\u4F86\u53EF\u4EE5\u7528\u5225\u91DD\u6233\u65B7\u3002"
+      - "\u0422\u0430\u043C \u0447\u0442\u043E-\u0442\u043E \u0442\u0430\u043A\u043E\u0435,
+        \u0447\u0442\u043E \u0432\u044B\u0433\u043B\u044F\u0434\u0438\u0442 \u0442\u0430\u043A,
+        \u0431\u0443\u0434\u0442\u043E \u043C\u043E\u0436\u0435\u0442 \u0441\u043B\u043E\u043C\u0430\u0442\u044C\u0441\u044F
+        \u043E\u0442 \u0431\u0443\u043B\u0430\u0432\u043A\u0438."
+      - "Hay algo que parece que se podr\xEDa romper con un alfiler."
+      - Tem algo ali que parece que pode quebrar com um alfinete.
+      - "Il y a quelque chose qui a l'air de pouvoir se casser avec une \xE9pingle."
+      - "Da ist etwas, das aussieht, als k\xF6nnte es mit einer Nadel zerbrechen."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/use_500yen
+      TermType: 0
+      Description: 
+      Languages:
+      - First of all, you probably want to go into the aquarium, right? Why don't
+        you try talking to the receptionist?
+      - "\u3068\u308A\u3042\u3048\u305A\u6C34\u65CF\u9928\u306B\u5165\u308A\u305F\u3044\u3088\u306D\u3002\u53D7\u4ED8\u306B\u8A71\u304B\u3051\u3066\u307F\u3066\u306F\uFF1F"
+      - "\uC6B0\uC120 \uC218\uC871\uAD00\uC5D0 \uB4E4\uC5B4\uAC00\uACE0 \uC2F6\uB124\uC694.
+        \uC811\uC218\uC5D0 \uB9D0\uC744 \uAC78\uC5B4 \uBCF4\uB294 \uAC83\uC740?"
+      - "\u9996\u5148\uFF0C\u4F60\u53EF\u80FD\u60F3\u53BB\u6C34\u65CF\u9986\u53C2\u89C2\uFF0C\u5BF9\u5427\uFF1F\u4E3A\u4EC0\u4E48\u4E0D\u8DDF\u63A5\u5F85\u5458\u8C08\u8C08\u5462\uFF1F"
+      - "\u9996\u5148\uFF0C\u4F60\u53EF\u80FD\u6703\u60F3\u53BB\u6C34\u65CF\u9928\u53C3\u89C0\uFF0C\u5C0D\u5427\uFF1F\u70BA\u4EC0\u9EBC\u4E0D\u8DDF\u63A5\u5F85\u54E1\u8AC7\u8AC7\u5462\uFF1F"
+      - "\u0412\u043E-\u043F\u0435\u0440\u0432\u044B\u0445, \u0432\u044B, \u043D\u0430\u0432\u0435\u0440\u043D\u043E\u0435,
+        \u0445\u043E\u0442\u0438\u0442\u0435 \u0437\u0430\u0439\u0442\u0438 \u0432
+        \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C, \u0432\u0435\u0440\u043D\u043E?
+        \u041F\u043E\u0447\u0435\u043C\u0443 \u0431\u044B \u0432\u0430\u043C \u043D\u0435
+        \u043F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u0441 \u0430\u0434\u043C\u0438\u043D\u0438\u0441\u0442\u0440\u0430\u0442\u043E\u0440\u043E\u043C?"
+      - "Para empezar, seguramente quieres entrar al acuario, \xBFverdad? \xBFPor
+        qu\xE9 no intentas hablar con la recepcionista?"
+      - "Primeiramente, voc\xEA provavelmente quer entrar no aqu\xE1rio, certo? Por
+        que n\xE3o tenta falar com a recepcionista?"
+      - "Tout d'abord, vous souhaitez probablement visiter l'aquarium, n'est-ce pas
+        ? Pourquoi ne pas essayer de parler \xE0 la r\xE9ceptionniste ?"
+      - "Als Erstes m\xF6chten Sie wahrscheinlich ins Aquarium, richtig? Warum sprechen
+        Sie nicht mit der Rezeptionistin?"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/open_sikuinnDoor
+      TermType: 0
+      Description: 
+      Languages:
+      - Take a closer look at the baby bottle symbol on the toilet sign.
+      - "\u30C8\u30A4\u30EC\u306E\u770B\u677F\u306E\u54FA\u4E73\u74F6\u306E\u30DE\u30FC\u30AF\u3092\u3088\u304F\u898B\u3066\u307F\u3088\u3046\u3002"
+      - "\uD654\uC7A5\uC2E4 \uAC04\uD310\uC758 \uC816\uBCD1\uC758 \uB9C8\uD06C\uB97C
+        \uC798 \uBCF4\uC790."
+      - "\u4ED4\u7EC6\u89C2\u5BDF\u4E00\u4E0B\u5395\u6240\u6807\u5FD7\u4E0A\u7684\u5976\u74F6\u56FE\u6848\u3002"
+      - "\u4ED4\u7D30\u89C0\u5BDF\u5EC1\u6240\u6A19\u8A8C\u4E0A\u7684\u5976\u74F6\u5716\u6848\u3002"
+      - "\u0412\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u043F\u0440\u0438\u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435\u0441\u044C
+        \u043A \u0441\u0438\u043C\u0432\u043E\u043B\u0443 \u0434\u0435\u0442\u0441\u043A\u043E\u0439
+        \u0431\u0443\u0442\u044B\u043B\u043E\u0447\u043A\u0438 \u043D\u0430 \u0442\u0430\u0431\u043B\u0438\u0447\u043A\u0435
+        \u0443 \u0442\u0443\u0430\u043B\u0435\u0442\u0430."
+      - "Observa con atenci\xF3n el s\xEDmbolo del biber\xF3n en el letrero del ba\xF1o."
+      - "Observe com aten\xE7\xE3o o s\xEDmbolo da mamadeira na placa do banheiro."
+      - "Observez de plus pr\xE8s le symbole du biberon sur le panneau des toilettes."
+      - Schauen Sie sich das Babyflaschensymbol auf dem Toilettenschild genauer an.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/box_baketu
+      TermType: 0
+      Description: 
+      Languages:
+      - Pay attention to the size of the bubbles the clownfish are blowing on the
+        aquarium wall.
+      - "\u6C34\u65CF\u9928\u306E\u58C1\u306E\u3001\u30AF\u30DE\u30CE\u30DF\u304C\u3075\u3044\u3066\u3044\u308B\u6CE1\u306E\u5927\u304D\u3055\u306B\u6CE8\u76EE\u3057\u3088\u3046\u3002"
+      - "\uC218\uC871\uAD00 \uBCBD\uC758 \uACF0\uC0C8\uBBF8\uAC00 \uB36E\uC5EC \uC788\uB294
+        \uAC70\uD488\uC758 \uD06C\uAE30\uC5D0 \uC8FC\uBAA9\uD558\uC790."
+      - "\u6CE8\u610F\u89C2\u5BDF\u5C0F\u4E11\u9C7C\u5728\u9C7C\u7F38\u58C1\u4E0A\u5439\u51FA\u7684\u6C14\u6CE1\u7684\u5927\u5C0F\u3002"
+      - "\u6CE8\u610F\u89C0\u5BDF\u5C0F\u4E11\u9B5A\u5728\u9B5A\u7F38\u58C1\u4E0A\u5439\u51FA\u7684\u6C23\u6CE1\u7684\u5927\u5C0F\u3002"
+      - "\u041E\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435
+        \u043D\u0430 \u0440\u0430\u0437\u043C\u0435\u0440 \u043F\u0443\u0437\u044B\u0440\u044C\u043A\u043E\u0432,
+        \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0440\u044B\u0431\u043A\u0438-\u043A\u043B\u043E\u0443\u043D\u044B
+        \u0432\u044B\u0434\u0443\u0432\u0430\u044E\u0442 \u043D\u0430 \u0441\u0442\u0435\u043D\u043A\u0430\u0445
+        \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C\u0430."
+      - "Presta atenci\xF3n al tama\xF1o de las burbujas que los peces payaso soplan
+        en la pared del acuario."
+      - "Preste aten\xE7\xE3o ao tamanho das bolhas que o peixe-palha\xE7o est\xE1
+        soprando na parede do aqu\xE1rio."
+      - Observez la taille des bulles que les poissons-clowns soufflent sur la paroi
+        de l'aquarium.
+      - "Achten Sie auf die Gr\xF6\xDFe der Blasen, die die Clownfische an die Aquarienwand
+        blasen."
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/get_baketu_before
+      TermType: 0
+      Description: 
+      Languages:
+      - blank
+      - blank
+      - blank
+      - "\u7A7A\u767D\u7684"
+      - "\u7A7A\u767D\u7684"
+      - "\u043F\u0443\u0441\u0442\u043E\u0439"
+      - blanco
+      - em branco
+      - vide
+      - leer
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/drag_okiami
+      TermType: 0
+      Description: 
+      Languages:
+      - There's an empty fish tank below the toilet sign. I wonder if we could put
+        something in it?
+      - "\u30C8\u30A4\u30EC\u306E\u30DE\u30FC\u30AF\u306E\u4E0B\u306B\u3001\u4F55\u3082\u5165\u3063\u3066\u3044\u306A\u3044\u6C34\u69FD\u304C\u3042\u308B\u306D\u3002\u4F55\u304B\u3092\u5165\u308C\u3089\u308C\u306A\u3044\u304B\u306A\uFF1F"
+      - "\uD654\uC7A5\uC2E4\uC758 \uB9C8\uD06C \uC544\uB798\uC5D0 \uC544\uBB34\uAC83\uB3C4
+        \uB4E4\uC5B4 \uC788\uC9C0 \uC54A\uC740 \uC218\uC870\uAC00 \uC788\uAD70\uC694.
+        \uBB54\uAC00\uB97C \uB123\uC744 \uC218 \uC5C6\uC2B5\uB2C8\uAE4C?"
+      - "\u5395\u6240\u6807\u5FD7\u724C\u4E0B\u9762\u6709\u4E2A\u7A7A\u9C7C\u7F38\u3002\u4E0D\u77E5\u9053\u6211\u4EEC\u80FD\u4E0D\u80FD\u5728\u91CC\u9762\u653E\u70B9\u4EC0\u4E48\uFF1F"
+      - "\u5EC1\u6240\u6A19\u8A8C\u724C\u4E0B\u9762\u6709\u500B\u7A7A\u9B5A\u7F38\u3002\u4E0D\u77E5\u9053\u6211\u5011\u80FD\u4E0D\u80FD\u5728\u88E1\u9762\u653E\u9EDE\u4EC0\u9EBC\uFF1F"
+      - "\u041F\u043E\u0434 \u0442\u0430\u0431\u043B\u0438\u0447\u043A\u043E\u0439
+        \xAB\u0422\u0443\u0430\u043B\u0435\u0442\xBB \u0441\u0442\u043E\u0438\u0442
+        \u043F\u0443\u0441\u0442\u043E\u0439 \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C.
+        \u0418\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E, \u043C\u043E\u0436\u043D\u043E
+        \u043B\u0438 \u0447\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C \u0432
+        \u043D\u0435\u0433\u043E \u043F\u043E\u043B\u043E\u0436\u0438\u0442\u044C?"
+      - "Hay una pecera vac\xEDa debajo del letrero del ba\xF1o. Me pregunto si podr\xEDamos
+        poner algo dentro."
+      - "Tem um aqu\xE1rio vazio embaixo da placa do banheiro. Ser\xE1 que dava para
+        colocar alguma coisa l\xE1 dentro?"
+      - Il y a un aquarium vide sous le panneau des toilettes. Je me demande si on
+        pourrait y mettre quelque chose ?
+      - "Unter dem Toilettenschild steht ein leeres Aquarium. Ob wir da wohl etwas
+        hineinstellen k\xF6nnten?"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/use_baketu_before
+      TermType: 0
+      Description: 
+      Languages:
+      - Is there any way to catch the fish in the tank?
+      - "\u6C34\u69FD\u306B\u3044\u308B\u9B5A\u306E\u3001\u4F55\u304B\u3067\u6355\u307E\u3048\u3089\u308C\u306A\u3044\u304B\u306A\uFF1F"
+      - "\uC218\uC871\uAD00\uC5D0\uC788\uB294 \uBB3C\uACE0\uAE30\uC758 \uBB54\uAC00\uB85C
+        \uC7A1\uD788\uC9C0 \uC54A\uC744\uAE4C?"
+      - "\u6709\u4EC0\u4E48\u529E\u6CD5\u80FD\u628A\u9C7C\u7F38\u91CC\u7684\u9C7C\u6293\u8D77\u6765\u5417\uFF1F"
+      - "\u6709\u4EC0\u9EBC\u8FA6\u6CD5\u80FD\u628A\u9B5A\u7F38\u88E1\u7684\u9B5A\u6293\u8D77\u4F86\u55CE\uFF1F"
+      - "\u0415\u0441\u0442\u044C \u043B\u0438 \u0441\u043F\u043E\u0441\u043E\u0431
+        \u043F\u043E\u0439\u043C\u0430\u0442\u044C \u0440\u044B\u0431\u0443 \u0432
+        \u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C\u0435?"
+      - "\xBFHay alguna forma de atrapar los peces en la pecera?"
+      - "Existe alguma maneira de pegar os peixes no aqu\xE1rio?"
+      - Existe-t-il un moyen d'attraper les poissons dans l'aquarium ?
+      - "Gibt es eine M\xF6glichkeit, die Fische im Aquarium zu fangen?"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/use_baketu_after
+      TermType: 0
+      Description: 
+      Languages:
+      - Is there anyone who might need a bucket of fish?
+      - "\u30D0\u30B1\u30C4\u306B\u5165\u3063\u305F\u9B5A\u3092\u5FC5\u8981\u3068\u3057\u3066\u305D\u3046\u306A\u4EBA\u304C\u3044\u306A\u3044\u304B\u306A\uFF1F"
+      - "\uC591\uB3D9\uC774\uC5D0 \uB4E4\uC5B4\uAC04 \uBB3C\uACE0\uAE30\uB97C \uD544\uC694\uB85C
+        \uD558\uB294 \uC0AC\uB78C\uC774 \uC5C6\uC744\uAE4C?"
+      - "\u8BF7\u95EE\u6709\u4EBA\u9700\u8981\u4E00\u6876\u9C7C\u5417\uFF1F"
+      - "\u8ACB\u554F\u6709\u4EBA\u9700\u8981\u4E00\u6876\u9B5A\u55CE\uFF1F"
+      - "\u041A\u043E\u043C\u0443-\u043D\u0438\u0431\u0443\u0434\u044C \u043C\u043E\u0436\u0435\u0442
+        \u043F\u043E\u043D\u0430\u0434\u043E\u0431\u0438\u0442\u044C\u0441\u044F
+        \u0432\u0435\u0434\u0440\u043E \u0440\u044B\u0431\u044B?"
+      - "\xBFHay alguien que necesite un cubo de pescado?"
+      - "Algu\xE9m precisa de um balde de peixe?"
+      - Quelqu'un aurait-il besoin d'un seau de poisson ?
+      - "Gibt es jemanden, der einen Eimer Fisch gebrauchen k\xF6nnte?"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/open_kurageRoom
+      TermType: 0
+      Description: 
+      Languages:
+      - Pay attention to the size of the penguins!
+      - "\u30DA\u30F3\u30AE\u30F3\u306E\u5927\u304D\u3055\u306B\u6CE8\u76EE\u3060\uFF01"
+      - "\uD3AD\uADC4\uC758 \uD06C\uAE30\uC5D0 \uC8FC\uBAA9\uC774\uB2E4!"
+      - "\u6CE8\u610F\u4F01\u9E45\u7684\u5927\u5C0F\uFF01"
+      - "\u6CE8\u610F\u4F01\u9D5D\u7684\u5927\u5C0F\uFF01"
+      - "\u041E\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435
+        \u043D\u0430 \u0440\u0430\u0437\u043C\u0435\u0440 \u043F\u0438\u043D\u0433\u0432\u0438\u043D\u043E\u0432!"
+      - "\xA1F\xEDjate en el tama\xF1o de los ping\xFCinos!"
+      - "Preste aten\xE7\xE3o ao tamanho dos pinguins!"
+      - Observez bien la taille des pingouins !
+      - "Achten Sie auf die Gr\xF6\xDFe der Pinguine!"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/box_tokei
+      TermType: 0
+      Description: 
+      Languages:
+      - The jellyfish are glowing in the dark room. Pay attention to how many are
+        glowing.
+      - "\u6697\u3044\u90E8\u5C4B\u3067\u30AF\u30E9\u30B2\u304C\u5149\u3063\u3066\u3044\u308B\u306D\u3002\u5149\u3063\u3066\u3044\u308B\u6570\u306B\u6CE8\u76EE\u3060\u3002"
+      - "\uC5B4\uB450\uC6B4 \uBC29\uC5D0\uC11C \uD574\uD30C\uB9AC\uAC00 \uBE5B\uB098\uACE0
+        \uC788\uB124\uC694. \uBE5B\uB098\uB294 \uC218\uC5D0 \uC8FC\uBAA9\uC774\uB2E4."
+      - "\u6C34\u6BCD\u5728\u9ED1\u6697\u7684\u623F\u95F4\u91CC\u4F1A\u53D1\u5149\u3002\u6CE8\u610F\u89C2\u5BDF\u6709\u591A\u5C11\u53EA\u6C34\u6BCD\u5728\u53D1\u5149\u3002"
+      - "\u6C34\u6BCD\u5728\u9ED1\u6697\u7684\u623F\u9593\u88E1\u6703\u767C\u5149\u3002\u6CE8\u610F\u89C0\u5BDF\u6709\u591A\u5C11\u6C34\u6BCD\u5728\u767C\u5149\u3002"
+      - "\u041C\u0435\u0434\u0443\u0437\u044B \u0441\u0432\u0435\u0442\u044F\u0442\u0441\u044F
+        \u0432 \u0442\u0435\u043C\u043D\u043E\u0439 \u043A\u043E\u043C\u043D\u0430\u0442\u0435.
+        \u041E\u0431\u0440\u0430\u0442\u0438\u0442\u0435 \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435,
+        \u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0438\u0437 \u043D\u0438\u0445
+        \u0441\u0432\u0435\u0442\u0438\u0442\u0441\u044F."
+      - "Las medusas brillan en la oscuridad de la habitaci\xF3n. F\xEDjate en cu\xE1ntas
+        brillan."
+      - "As \xE1guas-vivas est\xE3o brilhando no quarto escuro. Preste aten\xE7\xE3o
+        em quantas est\xE3o brilhando."
+      - "Les m\xE9duses brillent dans l'obscurit\xE9. Observez combien d'entre elles
+        brillent."
+      - Die Quallen leuchten im dunklen Raum. Achte darauf, wie viele leuchten.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/gimmick_time
+      TermType: 0
+      Description: 
+      Languages:
+      - There's nothing in that big tank. Does anyone at reception know anything?
+      - "\u30C7\u30AB\u30A4\u6C34\u69FD\u306B\u4F55\u3082\u3044\u306A\u3044\u306D\u3002\u53D7\u4ED8\u306A\u3089\u4F55\u304B\u3057\u3063\u3066\u308B\u304B\uFF1F\uFF1F"
+      - "\uD070 \uC218\uC871\uAD00\uC5D0 \uC544\uBB34\uAC83\uB3C4 \uC5C6\uC2B5\uB2C8\uB2E4.
+        \uB9AC\uC149\uC158\uC774\uB77C\uBA74 \uBB54\uAC00\uD558\uACE0 \uC788\uC2B5\uB2C8\uAE4C?
+        ?"
+      - "\u90A3\u4E2A\u5927\u6C34\u7BB1\u91CC\u4EC0\u4E48\u90FD\u6CA1\u6709\u3002\u524D\u53F0\u6709\u4EBA\u77E5\u9053\u4E9B\u4EC0\u4E48\u5417\uFF1F"
+      - "\u90A3\u500B\u5927\u6C34\u7BB1\u88E1\u4EC0\u9EBC\u90FD\u6C92\u6709\u3002\u524D\u53F0\u6709\u4EBA\u77E5\u9053\u4E9B\u4EC0\u9EBC\u55CE\uFF1F"
+      - "\u0412 \u044D\u0442\u043E\u043C \u0431\u043E\u043B\u044C\u0448\u043E\u043C
+        \u0440\u0435\u0437\u0435\u0440\u0432\u0443\u0430\u0440\u0435 \u043D\u0438\u0447\u0435\u0433\u043E
+        \u043D\u0435\u0442. \u041A\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C
+        \u043D\u0430 \u0440\u0435\u0441\u0435\u043F\u0448\u0435\u043D\u0435 \u0447\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C
+        \u0437\u043D\u0430\u0435\u0442?"
+      - "No hay nada en ese tanque grande. \xBFAlguien en recepci\xF3n sabe algo?"
+      - "N\xE3o h\xE1 nada naquele tanque grande. Algu\xE9m na recep\xE7\xE3o sabe
+        de alguma coisa?"
+      - "Ce grand r\xE9servoir est vide. Quelqu'un \xE0 la r\xE9ception saurait-il
+        quelque chose\_?"
+      - "In dem gro\xDFen Tank ist nichts. Wei\xDF jemand an der Rezeption etwas?"
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/box_switch
+      TermType: 0
+      Description: 
+      Languages:
+      - You can zoom in by tapping on the whale shark. Take a good look at its pattern.
+      - "\u30B8\u30F3\u30D9\u30A4\u30B6\u30E1\u3092\u30BF\u30C3\u30D7\u3059\u308B\u3068\u30BA\u30FC\u30E0\u3067\u304D\u308B\u3088\u3002\u6A21\u69D8\u3092\u3088\u304F\u898B\u3066\u307F\u3088\u3046\u3002"
+      - "\uACE0\uB798 \uC0C1\uC5B4\uB97C \uD0ED\uD558\uBA74 \uD655\uB300 \uD560 \uC218
+        \uC788\uC2B5\uB2C8\uB2E4. \uBB34\uB2AC\uB97C \uC798 \uBCF4\uC790."
+      - "\u70B9\u51FB\u9CB8\u9CA8\u5373\u53EF\u653E\u5927\u3002\u4ED4\u7EC6\u89C2\u5BDF\u5B83\u7684\u82B1\u7EB9\u3002"
+      - "\u9EDE\u64CA\u9BE8\u9BCA\u5373\u53EF\u653E\u5927\u3002\u4ED4\u7D30\u89C0\u5BDF\u5B83\u7684\u82B1\u7D0B\u3002"
+      - "\u0412\u044B \u043C\u043E\u0436\u0435\u0442\u0435 \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C
+        \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435, \u043D\u0430\u0436\u0430\u0432
+        \u043D\u0430 \u043A\u0438\u0442\u043E\u0432\u0443\u044E \u0430\u043A\u0443\u043B\u0443.
+        \u0412\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435
+        \u0435\u0451 \u0443\u0437\u043E\u0440."
+      - "Puedes hacer zoom tocando el tibur\xF3n ballena. Observa bien su patr\xF3n."
+      - "Voc\xEA pode ampliar a imagem tocando no tubar\xE3o-baleia. Observe bem
+        o seu padr\xE3o."
+      - Vous pouvez zoomer en touchant le requin-baleine. Observez bien ses motifs.
+      - Du kannst heranzoomen, indem du auf den Walhai tippst. Schau dir sein Muster
+        genau an.
+      Flags: 00000000000000000000
+      Languages_Touch: []
+    - Term: stage_003_hint/ending
+      TermType: 0
+      Description: 
+      Languages:
+      - Is there anything in Jellyfish's room that I could press?
+      - "\u6D77\u6708\u306E\u90E8\u5C4B\u306B\u62BC\u305B\u305D\u3046\u306A\u3082\u306E\u306F\u306A\u3044\u304B\u306A\uFF1F"
+      - "\uCE74\uC774\uC988\uD0A4\uC758 \uBC29\uC5D0 \uBC00\uB9B4 \uAC83 \uAC19\uC740
+        \uAC83\uC740 \uC5C6\uC744\uAE4C?"
+      - "\u6C34\u6BCD\u7684\u623F\u95F4\u91CC\u6709\u4EC0\u4E48\u4E1C\u897F\u6211\u53EF\u4EE5\u6309\u5417\uFF1F"
+      - "\u6C34\u6BCD\u7684\u623F\u9593\u88E1\u6709\u4EC0\u9EBC\u6771\u897F\u6211\u53EF\u4EE5\u6309\u55CE\uFF1F"
+      - "\u0415\u0441\u0442\u044C \u043B\u0438 \u0432 \u043A\u043E\u043C\u043D\u0430\u0442\u0435
+        \u041C\u0435\u0434\u0443\u0437\u044B \u0447\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C,
+        \u0447\u0442\u043E \u044F \u043C\u043E\u0433 \u0431\u044B \u043F\u043E\u0442\u0440\u043E\u0433\u0430\u0442\u044C?"
+      - "\xBFHay algo en la habitaci\xF3n de Jellyfish que pueda pulsar?"
+      - Existe algo no quarto da Medusa que eu possa apertar?
+      - Y a-t-il quelque chose dans la chambre de Jellyfish sur lequel je pourrais
+        appuyer ?
+      - "Gibt es in Jellyfishs Zimmer irgendetwas, das ich dr\xFCcken k\xF6nnte?"
+      Flags: 00000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
@@ -6227,7 +7364,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycbz3P6bsrL7X-a-tOH7d_zaNRofS3k8mweqH3XSP-AKwcfN2N9joL4NFZ2qeqkAHEloX/exec
     Google_SpreadsheetKey: 15vCkvfzLsdljlg8Njz7D0cuL2OGwIaDXBV0Gz53mozw
     Google_SpreadsheetName: I2Loc Escape22 Localization
-    Google_LastUpdatedVersion: 1776784819049
+    Google_LastUpdatedVersion: 1776845716657
     Google_Password: Makisannsugoi1
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2
