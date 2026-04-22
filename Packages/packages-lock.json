@@ -27,7 +27,7 @@
       "url": "https://package.openupm.com"
     },
     "com.google.ads.mobile.mediation.unity": {
-      "version": "3.16.8",
+      "version": "3.17.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -36,8 +36,8 @@
       "url": "https://package.openupm.com"
     },
     "com.google.external-dependency-manager": {
-      "version": "1.2.186",
-      "depth": 2,
+      "version": "1.2.187",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://package.openupm.com"
