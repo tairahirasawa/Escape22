@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d57d7d8702cb744b60c84b6f446e68, type: 3}
   m_Name: Master
   m_EditorClassIdentifier: 
-  version: 0.0.0
+  version: 0.0.1
   gameMode: 1
   platForm: 0
   googleAdSettings:
