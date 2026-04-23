@@ -2,7 +2,6 @@
   <packages>
     <package>androidx.constraintlayout:constraintlayout:2.1.4</package>
     <package>androidx.lifecycle:lifecycle-process:2.6.2</package>
-    <package>com.google.ads.mediation:applovin:13.5.1.0</package>
     <package>com.google.ads.mediation:unity:4.17.0.0</package>
     <package>com.google.android.gms:play-services-ads:25.0.0</package>
     <package>com.google.android.gms:play-services-base:18.7.2</package>

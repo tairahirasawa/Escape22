@@ -17,15 +17,6 @@
       },
       "url": "https://package.openupm.com"
     },
-    "com.google.ads.mobile.mediation.applovin": {
-      "version": "8.5.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.google.ads.mobile": "11.0.0"
-      },
-      "url": "https://package.openupm.com"
-    },
     "com.google.ads.mobile.mediation.unity": {
       "version": "3.17.0",
       "depth": 0,

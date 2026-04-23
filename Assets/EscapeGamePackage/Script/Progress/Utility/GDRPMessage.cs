@@ -2,8 +2,7 @@
 using GoogleMobileAds.Ump.Api;
 using System.Collections.Generic;
 using UnityEngine;
-using GoogleMobileAds.Api.Mediation.UnityAds;
-using GoogleMobileAds.Api.Mediation.AppLovin;
+//using GoogleMobileAds.Api.Mediation.AppLovin;
 
 public class GDRPMessage : SingletonMonoBehaviour<GDRPMessage>
 {
@@ -68,12 +67,6 @@ public class GDRPMessage : SingletonMonoBehaviour<GDRPMessage>
             // ★ここで「広告リクエストして良い状態」かチェック
             if (ConsentInformation.CanRequestAds())
             {
-                bool gdprConsent = (ConsentInformation.ConsentStatus == ConsentStatus.Obtained);
-
-                // Unity Ads / AppLovin に同意を渡す（必要なら）
-                UnityAds.SetConsentMetaData("gdpr.consent", gdprConsent);
-                AppLovin.SetHasUserConsent(gdprConsent);
-
                 MobileAds.Initialize((InitializationStatus initstatus) =>
                 {
                     // TODO: Request an ad.
