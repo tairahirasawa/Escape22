@@ -5955,7 +5955,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.95125
+  orthographic size: 9.6
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -8310,7 +8310,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 14.95125
+    OrthographicSize: 9.6
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -10000,6 +10000,34 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1329650509178770219, guid: 949dd3f773e292b488e776a889067151, type: 3}
   m_PrefabInstance: {fileID: 646095378}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &656035985 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7970485413073639743, guid: eda641690d5d69445a0b21eb1b49188b, type: 3}
+  m_PrefabInstance: {fileID: 268857948}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &671458279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::I2.Loc.LocalizeTarget_TextMeshPro_UGUI
+  mTarget: {fileID: 656035985}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 1
 --- !u!1 &672554722
 GameObject:
   m_ObjectHideFlags: 0
@@ -10216,6 +10244,23 @@ MonoBehaviour:
   DontDestroyEnabled: 0
   EndButtons: {fileID: 436342985}
   EscapeJudgeText: {fileID: 848345540}
+--- !u!114 &692423670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481ab606793a67349be805c13febeba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::I2.Loc.LocalizeTarget_TextMeshPro_UGUI
+  mTarget: {fileID: 1142183185}
+  mAlignment_RTL: 516
+  mAlignment_LTR: 513
+  mAlignmentWasRTL: 0
+  mInitializeAlignment: 1
 --- !u!1 &702001196
 GameObject:
   m_ObjectHideFlags: 0
@@ -17527,6 +17572,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1142183185 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 892161973721813523, guid: dddcc8aae41feb8458cb3f1cc233d863, type: 3}
+  m_PrefabInstance: {fileID: 1705435637}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1146982912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25145,7 +25201,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
