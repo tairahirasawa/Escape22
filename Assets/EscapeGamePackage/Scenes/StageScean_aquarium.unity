@@ -1749,7 +1749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &260364733
 Transform:
   m_ObjectHideFlags: 0
@@ -3534,7 +3534,7 @@ Transform:
   m_GameObject: {fileID: 371556292}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0000019073486, y: 0, z: -10}
+  m_LocalPosition: {x: 10.800002, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5055,7 +5055,7 @@ Transform:
   m_GameObject: {fileID: 515561714}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0000019073486, y: 0, z: -10}
+  m_LocalPosition: {x: 10.800002, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21588,15 +21588,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 174170379125694465, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: type
-      value: hasami
+      value: fude
       objectReference: {fileID: 0}
     - target: {fileID: 174170379125694465, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: progressKey.saveKey
-      value: get_hasami
+      value: get_fude
       objectReference: {fileID: 0}
     - target: {fileID: 174170379125694465, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: progressKey.episodeType
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 919591458036865975, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: openSprite
@@ -21620,7 +21620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: progressKey.saveKey
-      value: box_hasami
+      value: box_fude
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: 'answer.Array.data[0]'
@@ -21628,31 +21628,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: 'answer.Array.data[1]'
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: 'answer.Array.data[2]'
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'answer.Array.data[3]'
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'answer.Array.data[4]'
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'answer.Array.data[5]'
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: progressKey.episodeType
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.size
+      propertyPath: 'answer.Array.data[3]'
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
+      propertyPath: 'answer.Array.data[4]'
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
+      propertyPath: 'answer.Array.data[5]'
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
+      propertyPath: progressKey.episodeType
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
+      propertyPath: gimmickButtonSprite.Array.size
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonlayout.titleImage
@@ -21693,30 +21693,30 @@ PrefabInstance:
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[0].sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 04293b342e888b84fb870759284a5c53, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[1].sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8173c5eb9ed43724f90edd47e6d5898a, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[2].sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 8173c5eb9ed43724f90edd47e6d5898a, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[0].color.a
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[0].color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[0].color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[0].color.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[1].color.a
@@ -21724,15 +21724,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[1].color.b
-      value: 0
+      value: 0.5019608
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[1].color.g
-      value: 0
+      value: 0.5019608
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[1].color.r
-      value: 0
+      value: 0.5019608
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[2].color.a
@@ -21740,11 +21740,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[2].color.b
-      value: 0
+      value: 0.9960785
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[2].color.g
-      value: 0
+      value: 0.8000001
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[2].color.r
@@ -21756,15 +21756,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[3].color.b
-      value: 0.19215688
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[3].color.g
-      value: 0.87843144
+      value: 0.9960785
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[3].color.r
-      value: 0.9450981
+      value: 0.9921569
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[4].color.a
@@ -21772,15 +21772,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[4].color.b
-      value: 0.3803922
+      value: 0.050980397
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[4].color.g
-      value: 0.2901961
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[4].color.r
-      value: 0.2509804
+      value: 0.9960785
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[5].color.a
@@ -21788,15 +21788,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[5].color.b
-      value: 0.18431373
+      value: 0.86274517
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[5].color.g
-      value: 0.8588236
+      value: 0.454902
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[5].color.r
-      value: 0.50980395
+      value: 0.9960785
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[6].color.a
@@ -21808,11 +21808,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[6].color.g
-      value: 0.43921572
+      value: 0.9960785
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[6].color.r
-      value: 0.5686275
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonlayout.IsUseCustomGimmickButton
@@ -21884,15 +21884,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[1].customRectTransForm.eulerAngles.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[1].customRectTransForm.eulerAngles.z
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonSprite.Array.data[2].customRectTransForm.eulerAngles.z
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[0].buttonColor.a
@@ -22002,13 +22002,29 @@ PrefabInstance:
       propertyPath: gimmickButtonSprite.Array.data[2].customRectTransForm.ApplyCustomRectTransForm
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
+      propertyPath: gimmickButtonSprite.Array.data[3].customRectTransForm.ApplyCustomRectTransForm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
+      propertyPath: gimmickButtonSprite.Array.data[4].customRectTransForm.ApplyCustomRectTransForm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
+      propertyPath: gimmickButtonSprite.Array.data[5].customRectTransForm.ApplyCustomRectTransForm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
+      propertyPath: gimmickButtonSprite.Array.data[6].customRectTransForm.ApplyCustomRectTransForm
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4600074501232848271, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: m_Name
-      value: box_hasami
+      value: box_fude
       objectReference: {fileID: 0}
     - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.42
+      value: 9.29
       objectReference: {fileID: 0}
     - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27916,7 +27932,6 @@ Transform:
   - {fileID: 1535718369007242407}
   - {fileID: 7235943967427527652}
   - {fileID: 974346050522648097}
-  - {fileID: 4108828423739272720}
   - {fileID: 685908588991717358}
   - {fileID: 1614599021597926584}
   m_Father: {fileID: 6920286795143078311}
@@ -29936,7 +29951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3344287033688491855
 Transform:
   m_ObjectHideFlags: 0
@@ -39204,472 +39219,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1001 &4108828423739272719
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2723985358297623863}
-    m_Modifications:
-    - target: {fileID: 174170379125694465, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: type
-      value: mushimegane
-      objectReference: {fileID: 0}
-    - target: {fileID: 174170379125694465, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: progressKey.saveKey
-      value: get_mushimegane
-      objectReference: {fileID: 0}
-    - target: {fileID: 174170379125694465, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: progressKey.episodeType
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 919591458036865975, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: openSprite
-      value: 
-      objectReference: {fileID: 21300000, guid: c1bad70497df42f44ba59cadd64db001, type: 3}
-    - target: {fileID: 3184211954163067770, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 95a9e88402dcf504abe6bfad9558b020, type: 3}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: answer.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonType
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: progressKey.saveKey
-      value: box_mushimegane
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'answer.Array.data[0]'
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'answer.Array.data[1]'
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'answer.Array.data[2]'
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'answer.Array.data[3]'
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'answer.Array.data[4]'
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'answer.Array.data[5]'
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: progressKey.episodeType
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.titleImage
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.NumX.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.hideArrowButton
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'gimmickButtonlayout.NumX.Array.data[0]'
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'gimmickButtonlayout.NumX.Array.data[1]'
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'gimmickButtonlayout.NumX.Array.data[2]'
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'gimmickButtonlayout.NumX.Array.data[3]'
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'gimmickButtonlayout.NumX.Array.data[4]'
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: 'gimmickButtonlayout.NumX.Array.data[5]'
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[0].sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 03d8f48c8fba9f440a23ddcc7303af6f, type: 3}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[1].sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 1687778861fb9a84a89ddefb37dbb07c, type: 3}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[2].sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 99c582340a3f6e84d8b1ef66410c6bd8, type: 3}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[0].color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[0].color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[0].color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[0].color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[1].color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[1].color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[1].color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[1].color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[2].color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[2].color.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[2].color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[2].color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[3].color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[3].color.b
-      value: 0.19215688
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[3].color.g
-      value: 0.87843144
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[3].color.r
-      value: 0.9450981
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[4].color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[4].color.b
-      value: 0.3803922
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[4].color.g
-      value: 0.2901961
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[4].color.r
-      value: 0.2509804
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[5].color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[5].color.b
-      value: 0.18431373
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[5].color.g
-      value: 0.8588236
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[5].color.r
-      value: 0.50980395
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[6].color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[6].color.b
-      value: 0.078431375
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[6].color.g
-      value: 0.43921572
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[6].color.r
-      value: 0.5686275
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.IsUseCustomGimmickButton
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[0].sizeX
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[0].sizeY
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[1].sizeX
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[1].sizeY
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[2].sizeX
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[2].sizeY
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[3].sizeX
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[3].sizeY
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[4].sizeX
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[4].sizeY
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[5].sizeX
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[5].sizeY
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[0].customShape
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[1].customShape
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[2].customShape
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[0].buttonColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[0].buttonColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[0].buttonColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[0].buttonColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[1].buttonColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[1].buttonColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[1].buttonColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[1].buttonColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[2].buttonColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[2].buttonColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[2].buttonColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[2].buttonColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[3].buttonColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[3].buttonColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[3].buttonColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[3].buttonColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[4].buttonColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[4].buttonColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[4].buttonColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[4].buttonColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[5].buttonColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[5].buttonColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[5].buttonColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonlayout.gimmickButtonStyles.Array.data[5].buttonColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[0].customRectTransForm.ApplyCustomRectTransForm
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[1].customRectTransForm.ApplyCustomRectTransForm
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4572241179947305207, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: gimmickButtonSprite.Array.data[2].customRectTransForm.ApplyCustomRectTransForm
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4600074501232848271, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_Name
-      value: box_mushimegane
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
---- !u!4 &4108828423739272720 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4918816512620823017, guid: bb85ef2b1453ec645831b67c472b77c3, type: 3}
-  m_PrefabInstance: {fileID: 4108828423739272719}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4121062745698395046
 Transform:
   m_ObjectHideFlags: 0
@@ -46630,7 +46179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6158393433815113610
 Transform:
   m_ObjectHideFlags: 0
