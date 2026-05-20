@@ -48,5 +48,5 @@ public class Charactor
 public enum CharactorType
 {
     none, George_normal, Edward_normal, Edward_sunglass, CafeMaster, ChildDemon, ShopOwner, Detective, Client, Boy, Performer,
-    Grandmother,Snowman,King,Troll,Wizard,DemonKing,StationStaff,Doctor,Police
+    Grandmother,Snowman,King,Troll,Wizard,DemonKing,StationStaff,Doctor,Police,Trainer
 }

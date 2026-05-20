@@ -39,9 +39,15 @@ MonoBehaviour:
     _keyValues:
     - gowgle
     - fude
+    - scop
+    - barl
+    - iwashi_baketu
     _keys:
     - gowgle
     - fude
+    - scop
+    - barl
+    - iwashi_baketu
     _values:
     - ItemSprite: {fileID: 21300000, guid: ffdef2bcfacc48a4ba2db6f9228d69bc, type: 3}
       enableSwitch:
@@ -124,6 +130,210 @@ MonoBehaviour:
         progressKeys:
         - episodeType: 6
           saveKey: use_fude
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+        gameObjectName: ItemBase
+    - ItemSprite: {fileID: 21300000, guid: 15da11c6ed831d748b5efe77bbae9f48, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 6
+          saveKey: get_scop
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 6
+          saveKey: use_scop
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+        gameObjectName: ItemBase
+    - ItemSprite: {fileID: 21300000, guid: e361b42efeff9154981616028dc3bfed, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 6
+          saveKey: get_barl
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 6
+          saveKey: use_barl
+      eventActionConfig:
+        eventActionTrigger:
+          triggerType: 0
+          needZoom: 0
+          always: 0
+          dontStopIsDoneProgress: 0
+          presentUnDoneMessage: 0
+          UnDoneMessage:
+            IsCommonMessage: 0
+            progressJudge:
+              UseProgressSwitch: 0
+              startSwitch:
+                judgeType: 0
+                progressKeys: []
+              endSwitch:
+                judgeType: 0
+                progressKeys: []
+            messages: []
+          needItem: 0
+          DontDeleteUseItem: 0
+          needItemTypes: []
+          targetSetting:
+            judgeType: 0
+            progressKeys: []
+          DontStartNotShowStageScreen: 0
+          gimmick: {fileID: 0}
+          targetMap:
+            UseMapChangeJudge: 0
+            targetMap: []
+        progressKey:
+          episodeType: 0
+          saveKey: 
+        progressJudge:
+          UseProgressSwitch: 0
+          startSwitch:
+            judgeType: 0
+            progressKeys: []
+          endSwitch:
+            judgeType: 0
+            progressKeys: []
+        collectionItemSwitch:
+          UseCollectionItemSwitch: 0
+          collectionItemMinNum: 0
+          collectionItemMaxNum: 0
+        numCounterJudge:
+          UseNumCounterJudge: 0
+          type: 0
+          numCounter: {fileID: 0}
+          targetNum: 0
+        setActiveJudge:
+          UseSetActiveJudge: 0
+          setActiveSets: []
+        mapChangeJudge:
+          UseMapChangeJudge: 0
+          targetMap: []
+        actionList: []
+        gameObjectName: ItemBase
+    - ItemSprite: {fileID: 21300000, guid: 356ab2bce2c04454d82d1b689553c9b9, type: 3}
+      enableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 6
+          saveKey: get_iwashi_baketu
+      disableSwitch:
+        judgeType: 1
+        progressKeys:
+        - episodeType: 6
+          saveKey: ending
       eventActionConfig:
         eventActionTrigger:
           triggerType: 0

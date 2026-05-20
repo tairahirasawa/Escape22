@@ -70,3 +70,6 @@ MonoBehaviour:
   - chractorType: 19
     displayNameTerm: Police
     ImageSprite: {fileID: 21300000, guid: b76a3f4e7f3cd5141a180307a5738e63, type: 3}
+  - chractorType: 20
+    displayNameTerm: Trainer
+    ImageSprite: {fileID: 21300000, guid: b76a3f4e7f3cd5141a180307a5738e63, type: 3}

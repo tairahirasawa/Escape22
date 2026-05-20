@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 055c995382d27684aa6866ff2fd82994
+guid: 6d8752cbf4c9c7f49a7268e84bdfe2fd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1606972093258683472
-    second: wanage_0
+      213: 9139924817959755922
+    second: chinanago_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wanage_0
+      name: chinanago_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 248
-        height: 248
+        width: 176
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05456aeca9c1d4610800000000000000
-      internalID: 1606972093258683472
+      spriteID: 290a440523987de70800000000000000
+      internalID: 9139924817959755922
       vertices: []
       indices: 
       edges: []
