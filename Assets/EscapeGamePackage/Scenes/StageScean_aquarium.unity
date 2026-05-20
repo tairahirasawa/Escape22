@@ -10107,7 +10107,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9.6
+  orthographic size: 14.95125
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -10695,7 +10695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &412846783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12519,7 +12519,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 9.6
+    OrthographicSize: 14.95125
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -19556,7 +19556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1059473023
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22216,7 +22216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1283806838
 RectTransform:
   m_ObjectHideFlags: 0
@@ -32479,6 +32479,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8534824646847801728, guid: 58affc367a9ec6849823394ed3b6cefb, type: 3}
+      propertyPath: eventActionConfig.actionList.Array.data[2].setActiveEventAction.NoWait
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534824646847801728, guid: 58affc367a9ec6849823394ed3b6cefb, type: 3}
       propertyPath: eventActionConfig.actionList.Array.data[2].setActiveEventAction.setActiveObjects.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -39826,7 +39830,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3418639652904567462
 Transform:
   m_ObjectHideFlags: 0
